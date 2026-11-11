@@ -81,3 +81,4 @@ def test_config_invalid_yaml(tmp_path: Path):
     with pytest.raises(ConfigurationError) as exc_info:
         Config(config_file=corrupted_yaml)
     assert "Error parsing YAML" in str(exc_info.value)
+

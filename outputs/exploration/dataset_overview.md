@@ -1,0 +1,11 @@
+# PressureIQ — Dataset Overview
+
+```text
+                       dataset_name  file_size_mb  memory_usage_mb  row_count  column_count  duplicate_rows  total_null_values  null_percentage
+                   competitions.csv         0.007             0.03        141             4               0                  0             0.00
+                          teams.csv         0.007             0.03        353             3               0                  0             0.00
+competition_team_player_mapping.csv         0.442             1.39       6413             6               0                  0             0.00
+                        matches.csv         0.118             0.46        883            22               0               2736            14.08
+                 playing_eleven.csv         0.922             3.21      28381             9               0              26012            10.18
+                   ball_by_ball.csv        39.169           165.28     200999            33               0             766466            11.56
+```

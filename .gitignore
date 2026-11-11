@@ -71,3 +71,6 @@ outputs/charts/*
 !outputs/charts/.gitkeep
 outputs/reports/*
 !outputs/reports/.gitkeep
+outputs/exploration/charts/*
+!outputs/exploration/charts/.gitkeep
+

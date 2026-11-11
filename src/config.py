@@ -167,3 +167,4 @@ class Config:
 
 # Default singleton instance
 config = Config.get_instance()
+

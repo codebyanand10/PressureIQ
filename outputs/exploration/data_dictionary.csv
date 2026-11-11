@@ -1,0 +1,78 @@
+dataset_name,column_name,dtype,non_null_count,missing_count,missing_pct,unique_count,is_identifier,data_category,sample_values,semantic_meaning,useful_for_future
+competitions.csv,comp_id,int64,141,0,0.0,141,True,Identifier,"3395, 3405, 3465",Unique competition / tournament identifier,True
+competitions.csv,comp_name,str,141,0,0.0,141,False,Categorical,"South Africa in New Zealand T20I Series 2026, Afghanistan v Sri Lanka T20I Series 2026, India in Zimbabwe T20I Series 2026",Official competition / series title,True
+competitions.csv,match_format,str,141,0,0.0,2,False,Categorical,"T20I, T20",Cricket match format (T20I or T20),True
+competitions.csv,season,str,141,0,0.0,8,False,Numerical / Year,"2026, 2022, 2023",Season year of competition,True
+teams.csv,comp_id,int64,353,0,0.0,141,True,Identifier,"1331, 1335, 1345",Unique competition / tournament identifier,True
+teams.csv,team_id,int64,353,0,0.0,38,True,Identifier,"22, 28, 18",Unique team identifier,True
+teams.csv,team_name,str,353,0,0.0,38,False,Categorical,"England, West Indies, India",Official team name,True
+competition_team_player_mapping.csv,comp_id,int64,6413,0,0.0,140,True,Identifier,"1331, 1335, 1345",Unique competition / tournament identifier,True
+competition_team_player_mapping.csv,comp_name,str,6413,0,0.0,140,False,Categorical,"England in West Indies T20I Series 2022, West Indies in India T20I Series 2022, Sri Lanka in Australia T20I Series 2022",Official competition / series title,True
+competition_team_player_mapping.csv,team_id,int64,6413,0,0.0,38,True,Identifier,"22, 28, 18",Unique team identifier,True
+competition_team_player_mapping.csv,team_name,str,6413,0,0.0,38,False,Categorical,"England, West Indies, India",Official team name,True
+competition_team_player_mapping.csv,player_id,int64,6413,0,0.0,1217,True,Identifier,"478, 479, 722",Unique player registry identifier,True
+competition_team_player_mapping.csv,player_name,str,6413,0,0.0,1210,False,Categorical,"Eoin Morgan, Adil Rashid, Liam Dawson",Full player name,True
+matches.csv,match_id,int64,883,0,0.0,883,True,Identifier,"13511, 13512, 13513",Unique match identifier,True
+matches.csv,comp_id,int64,883,0,0.0,138,True,Identifier,"1331, 1335, 1345",Unique competition / tournament identifier,True
+matches.csv,match_number,int64,883,0,0.0,75,False,Numerical,"1, 2, 3",Sequential match number in tournament / bilateral series,True
+matches.csv,match_date,str,883,0,0.0,686,False,Date,"2022-01-22, 2022-01-23, 2022-01-26",Calendar date when match took place (YYYY-MM-DD),True
+matches.csv,stage,str,883,0,0.0,7,False,Categorical,"League, Qualifier, Eliminator","Tournament stage (League, Final, Semi Final, Super 8, etc.)",True
+matches.csv,venue_id,int64,883,0,0.0,98,True,Identifier,"54, 8, 44",Unique stadium / venue identifier,True
+matches.csv,venue_country,str,883,0,0.0,17,False,Categorical,"West Indies, India, Australia",Host country of the venue,True
+matches.csv,home_team_id,int64,883,0,0.0,36,True,Identifier,"28, 18, 20",Designated home team identifier,True
+matches.csv,home_team,str,883,0,0.0,36,False,Categorical,"West Indies, India, Australia",Designated home team name,True
+matches.csv,away_team_id,int64,883,0,0.0,36,True,Identifier,"22, 28, 27",Designated away team identifier,True
+matches.csv,away_team,str,883,0,0.0,36,False,Categorical,"England, West Indies, Sri Lanka",Designated away team name,True
+matches.csv,home_team_captain_id,float64,839,44,4.98,89,True,Identifier,"494.0, 126.0, 250.0",Player ID of the home team captain,True
+matches.csv,away_team_captain_id,float64,838,45,5.1,98,True,Identifier,"478.0, 1596.0, 494.0",Player ID of the away team captain,True
+matches.csv,toss_win_team_id,float64,868,15,1.7,37,True,Identifier,"28.0, 22.0, 18.0",Team ID winning the coin toss,True
+matches.csv,toss_opted,str,868,15,1.7,2,False,Categorical,"Fielding, Batting",Decision made upon winning toss (Batting / Fielding),True
+matches.csv,man_of_the_match,int64,883,0,0.0,293,True,Identifier / Numerical,"0, 4986, 1699",Player ID or marker for Player of the Match award,True
+matches.csv,first_inn_revised_overs,float64,25,858,97.17,13,False,Numerical,"114.0, 84.0, 66.0",Revised balls (stored as legal balls) for Innings 1,True
+matches.csv,second_inn_revised_overs,float64,25,858,97.17,12,False,Numerical,"114.0, 42.0, 48.0",Revised balls (stored as legal balls) for Innings 2,True
+matches.csv,revised_target,float64,23,860,97.4,23,False,Numerical,"143.0, 56.0, 91.0",Target score revised via DLS rain calculation,True
+matches.csv,knock_out,int64,883,0,0.0,2,False,Binary,"0, 1","Binary indicator: 1 if knockout / playoff match, 0 if league",True
+matches.csv,win_team_id,float64,842,41,4.64,36,True,Identifier,"28.0, 22.0, 18.0",Team ID of match winner (null for tie/abandoned),True
+matches.csv,result,str,883,0,0.0,670,False,Categorical,"West Indies Won by 9 Wickets, England Won by 1 Run, West Indies Won by 20 runs",Text description of match outcome / victory margin,True
+playing_eleven.csv,match_id,int64,28381,0,0.0,880,True,Identifier,"13511, 13512, 13513",Unique match identifier,True
+playing_eleven.csv,team_id,int64,28381,0,0.0,38,True,Identifier,"22, 28, 18",Unique team identifier,True
+playing_eleven.csv,player_id,int64,28381,0,0.0,1082,True,Identifier,"1187, 6273, 1210",Unique player registry identifier,True
+playing_eleven.csv,batting_order,float64,19703,8678,30.58,13,False,Numerical,"1.0, 2.0, 3.0",Position in lineup / batting order (1 to 11+),True
+playing_eleven.csv,is_played,bool,28381,0,0.0,2,False,Boolean,"True, False",True if player participated in match; False if bench reserve,True
+playing_eleven.csv,is_captain,object,19714,8667,30.54,2,False,Boolean,"False, True",True if player captained the side,True
+playing_eleven.csv,is_wk,object,19714,8667,30.54,2,False,Boolean,"False, True",True if player served as designated wicketkeeper,True
+playing_eleven.csv,is_impact,int64,28381,0,0.0,2,False,Binary,"0, 1",1 if player entered as an Impact Player substitute,True
+playing_eleven.csv,is_impact_off,int64,28381,0,0.0,2,False,Binary,"0, 1",1 if player was substituted off as Impact Player,True
+ball_by_ball.csv,match_id,int64,200999,0,0.0,867,True,Identifier,"13511, 13512, 13513",Unique match identifier,True
+ball_by_ball.csv,innings,int64,200999,0,0.0,4,False,Numerical,"1, 2, 3",Innings number (1 or 2; 3 or 4 for Super Over),True
+ball_by_ball.csv,overid,int64,200999,0,0.0,20,False,Numerical,"1, 2, 3","Over number (1 to 20, 1-indexed)",True
+ball_by_ball.csv,over_ball_num,int64,200999,0,0.0,13,False,Numerical,"1, 2, 3",Delivery number within the over (1-indexed; counts all balls),True
+ball_by_ball.csv,innings_ball_num,int64,200999,0,0.0,136,False,Numerical,"1, 2, 3",Sequential ball number in innings (counts all balls),True
+ball_by_ball.csv,batting_team_id,int64,200999,0,0.0,38,True,Identifier,"22, 28, 18",Team ID of current batting team,True
+ball_by_ball.csv,bowling_team_id,int64,200999,0,0.0,38,True,Identifier,"28, 22, 18",Team ID of current bowling team,True
+ball_by_ball.csv,striker_id,int64,200999,0,0.0,888,True,Identifier,"1187, 6273, 1596",Player ID of batter facing delivery,True
+ball_by_ball.csv,striker_name,str,200999,0,0.0,885,False,Categorical,"Jason Roy, Tom Banton, Moeen Ali",Name of batter facing delivery,True
+ball_by_ball.csv,non_striker_id,int64,200999,0,0.0,867,True,Identifier,"6273, 1210, 478",Player ID of batter at non-striker's end,True
+ball_by_ball.csv,non_striker_name,str,200999,0,0.0,864,False,Categorical,"Tom Banton, James Vince, Eoin Morgan",Name of batter at non-striker's end,True
+ball_by_ball.csv,bowler_id,int64,200999,0,0.0,647,True,Identifier,"1772, 2633, 2417",Player ID of bowler delivering ball,True
+ball_by_ball.csv,bowler_name,str,200999,0,0.0,646,False,Categorical,"Sheldon Cottrell, Jason Holder, Akeal Hosein",Name of bowler delivering ball,True
+ball_by_ball.csv,batting_type,str,200999,0,0.0,2,False,Categorical,"RHB, LHB",Batter stance / style (RHB or LHB),True
+ball_by_ball.csv,bowling_type,str,200999,0,0.0,12,False,Categorical,"Left-arm fast-medium, Right-arm medium-fast, Slow left-arm orthodox","Bowler arm and style (e.g. Right-arm Fast, Left-arm Spin)",True
+ball_by_ball.csv,batting_order,int64,200999,0,0.0,13,False,Numerical,"1, 2, 4",Position in lineup / batting order (1 to 11+),True
+ball_by_ball.csv,runs,int64,200999,0,0.0,7,False,Numerical,"0, 6, 4",Batter runs scored off the bat on this delivery,True
+ball_by_ball.csv,is_four,bool,200999,0,0.0,2,False,Boolean,"False, True",True if a four was struck off the bat,True
+ball_by_ball.csv,is_six,bool,200999,0,0.0,2,False,Boolean,"False, True",True if a six was struck off the bat,True
+ball_by_ball.csv,is_wicket,bool,200999,0,0.0,2,False,Boolean,"False, True",True if a dismissal occurred on this delivery,True
+ball_by_ball.csv,dismissal_type_id,float64,10881,190118,94.59,8,True,Identifier,"1.0, 2.0, 5.0",Categorical numeric ID of dismissal method,True
+ball_by_ball.csv,dismissal_type,str,10881,190118,94.59,9,False,Categorical,"Bowled, Caught, Stump","Dismissal classification (Caught, Bowled, LBW, RunOut, etc.)",True
+ball_by_ball.csv,dismissed_player_id,float64,10892,190107,94.58,814,True,Identifier,"1187.0, 6273.0, 1596.0",Player ID of dismissed batter,True
+ball_by_ball.csv,extras_type,str,11832,189167,94.11,6,False,Categorical,"wide, legbyes, byes","Classification of extra (wide, Overstep, legbyes, byes, Penalty)",True
+ball_by_ball.csv,extras1_runs,int64,200999,0,0.0,6,False,Numerical,"0, 1, 4",Primary extra runs conceded on delivery,True
+ball_by_ball.csv,extras_2_runs,int64,200999,0,0.0,3,False,Numerical,"0, 4, 1","Secondary extra runs (e.g., runs on no-ball)",True
+ball_by_ball.csv,pace_or_spin,str,200999,0,0.0,2,False,Categorical,"Pace, Spin",Delivery broad style: Pace or Spin,True
+ball_by_ball.csv,bowl_speed,float64,200999,0,0.0,1033,False,Numerical,"0.0, 126.0, 127.0",Speed radar reading in km/h (0 indicates missing radar),True
+ball_by_ball.csv,stroke,str,194841,6158,3.06,30,False,Categorical,"Cover Drive, Flick, Square Cut","Shot played by batter (e.g., Cover Drive, Pull, Flick)",True
+ball_by_ball.csv,delivery_style,str,200608,391,0.19,34,False,Categorical,"Inswing, Seamed In, Full Toss","Ball movement style (e.g., Inswing, Outswing, Googly)",True
+ball_by_ball.csv,over_or_around,str,200592,407,0.2,2,False,Categorical,"Over, Around",Bowler angle relative to stumps: Over or Around wicket,True
+ball_by_ball.csv,on_or_off,str,200999,0,0.0,2,False,Categorical,"Off-side, On-side",Pitch line orientation: Off-side or On-side,True
+ball_by_ball.csv,delivery_ist_time,str,200999,0,0.0,200826,False,Timestamp,"2022-01-23 00:00:00 UTC, 2022-01-23 02:08:52 UTC, 2022-01-23 02:09:20 UTC",Timestamp of delivery (IST timezone),True

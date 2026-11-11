@@ -1,0 +1,16 @@
+Requirement,Target Engine,Source Dataset & Column,Availability,Notes
+Match Identifier,All Modules,matches.csv / ball_by_ball.csv (match_id),AVAILABLE,100% complete across all 883 matches.
+Batter ID & Striker Name,Batting Engine,"ball_by_ball.csv (striker_id, striker_name)",AVAILABLE,"Zero nulls in 200,999 deliveries."
+Bowler ID & Bowler Name,Bowling Engine,"ball_by_ball.csv (bowler_id, bowler_name)",AVAILABLE,"Zero nulls in 200,999 deliveries."
+Batter Runs Scored,Batting Engine,ball_by_ball.csv (runs),AVAILABLE,Verified to represent runs off the bat only.
+Total Delivery Team Runs,Match State / Bowling,ball_by_ball.csv (runs + extras1 + extras2),DERIVABLE,Cleanly computable on every delivery.
+Legal Deliveries Counter,Match State / Baseline,ball_by_ball.csv (extras_type not in wide/Overstep),DERIVABLE,Distinguishable by filtering wide and Overstep extras.
+Wickets Fallen / Wickets in Hand,Match State / Pressure,ball_by_ball.csv (is_wicket),DERIVABLE,Cumulative sum of is_wicket within match and innings.
+Bowler-Credited Wickets,Bowling Engine,ball_by_ball.csv (dismissal_type),DERIVABLE,"Excludes RunOut, Retire Out, and Obstructing field."
+First Innings Target,Match State / Pressure,ball_by_ball.csv (sum inn1 runs) + 1,DERIVABLE,Computed from Innings 1 cumulative total plus 1.
+DLS Revised Target,Match State / Pressure,matches.csv (revised_target),PARTIALLY AVAILABLE,Populated in 23 rain-affected matches; otherwise regular target.
+Balls Remaining in Innings,Match State / Pressure,Allocated Balls - Cumulative Legal Balls,DERIVABLE,120 balls in full match; second_inn_revised_overs in DLS.
+Required Run Rate (RRR),Pressure Engine,(Runs Needed / Balls Remaining) * 6,DERIVABLE,Computable for all second innings chases.
+Match Closeness / Leverage,Pressure Engine,"Stage of match, RRR leverage, win prob swing",DERIVABLE,Designed in Phase 4 using win probability models.
+Bowling Speed Radar (km/h),Advanced Analytics,ball_by_ball.csv (bowl_speed),PARTIALLY AVAILABLE,38.7% of balls have speed == 0 (untracked venues).
+Shot Classification (Stroke),Advanced Batting,ball_by_ball.csv (stroke),AVAILABLE,30 shot types populated for 96.9% of deliveries.

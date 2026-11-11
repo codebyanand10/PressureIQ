@@ -1,0 +1,13 @@
+metric,value
+Total Unique Players in Mapping,1217
+Total Unique Players in Playing XI,1082
+Total Unique Players in Deliveries (BBB),959
+Unique Strikers,888
+Unique Non-Strikers,867
+Unique Bowlers,647
+Unique Dismissed Batters,814
+Players in Mapping but Never in Playing XI (Reserves),135
+Players in Playing XI but Never in Deliveries,125
+BBB Players Absent from Playing XI,2
+Player Names with Multiple IDs (Distinct Homonyms),7
+Player IDs with Multiple Names,0

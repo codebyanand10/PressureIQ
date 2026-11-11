@@ -112,3 +112,4 @@ def test_future_src_modules_exist():
         assert mod_path.is_file(), f"Expected module stub missing: {mod}"
         content = mod_path.read_text(encoding="utf-8")
         assert "TODO" in content, f"Module stub {mod} should contain TODO comment"
+

@@ -1,0 +1,7 @@
+dataset_name,key_type,key_columns,total_rows,null_keys,duplicate_key_rows,distinct_duplicates,is_unique,validity_status,notes
+competitions.csv,Primary Key,comp_id,141,0,0,0,True,VALID,Key is unique and complete
+teams.csv,Composite Key,comp_id+team_id,353,0,0,0,True,VALID,Key is unique and complete
+competition_team_player_mapping.csv,Composite Key,comp_id+team_id+player_id,6413,0,0,0,True,VALID,Key is unique and complete
+matches.csv,Primary Key,match_id,883,0,0,0,True,VALID,Key is unique and complete
+playing_eleven.csv,Composite Key,match_id+team_id+player_id,28381,0,75,40,False,VIOLATION DETECTED,40 duplicate key instances (75 rows total)
+ball_by_ball.csv,Composite Key,match_id+innings+innings_ball_num,200999,0,0,0,True,VALID,Key is unique and complete

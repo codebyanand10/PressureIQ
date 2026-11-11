@@ -104,3 +104,4 @@ The system ensures that raw match events remain immutable, while analytical pipe
 - **Configuration Management (`src/config.py`):** Centralized singleton pattern reading from `config/settings.yaml`, providing platform-agnostic `pathlib.Path` resolutions and directory validation.
 - **Logging Infrastructure (`src/logger.py`):** Reusable logger writing structured records with timestamps and line numbers to both stdout and `outputs/logs/pressureiq.log`.
 - **Environment Management:** Driven by `.env` with fallback defaults, ensuring zero hardcoded secrets.
+

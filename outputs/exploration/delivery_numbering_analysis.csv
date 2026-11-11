@@ -1,0 +1,8 @@
+metric,value
+overid minimum,1
+overid maximum,20
+over_ball_num minimum,1
+over_ball_num maximum,13
+Deliveries where over_ball_num > 6 (Overs with Extras),8429
+"Total Legal Balls (extras_type not in ['wide', 'Overstep'])",192709
+Total Deliveries (Legal + Illegal),200999

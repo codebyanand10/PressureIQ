@@ -1,0 +1,8 @@
+parent_dataset,child_dataset,join_keys,description,parent_distinct_keys,child_distinct_keys,matching_keys,unmatched_child_keys,referential_status
+competitions.csv,matches.csv,comp_id,Match to Competition linkage,141,138,138,0,INTEGRITY INTACT
+competitions.csv,teams.csv,comp_id,Team participation to Competition linkage,141,141,141,0,INTEGRITY INTACT
+teams.csv,competition_team_player_mapping.csv,comp_id+team_id,Player Squad to Team/Competition mapping,353,348,348,0,INTEGRITY INTACT
+matches.csv,playing_eleven.csv,match_id,Playing Lineup to Match linkage,883,880,880,0,INTEGRITY INTACT
+matches.csv,ball_by_ball.csv,match_id,Ball-by-ball delivery to Match linkage,883,867,867,0,INTEGRITY INTACT
+playing_eleven.csv,ball_by_ball.csv,match_id+striker_id,Striker appearance to Playing XI linkage,28341,13729,13723,6,ORPHAN KEYS DETECTED
+playing_eleven.csv,ball_by_ball.csv,match_id+bowler_id,Bowler appearance to Playing XI linkage,28341,10094,10091,3,ORPHAN KEYS DETECTED

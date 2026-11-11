@@ -1,0 +1,9 @@
+role_flag,count
+Total Rows in Playing XI,28381
+is_played == True (Active Players),19714
+is_played == False (Bench Reserves),8667
+Captains (is_captain == True),1683
+Wicketkeepers (is_wk == True),1675
+Impact Players In (is_impact == 1),558
+Impact Players Out (is_impact_off == 1),558
+"Duplicate (match_id, team_id, player_id) rows",40
