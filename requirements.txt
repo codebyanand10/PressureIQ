@@ -1,0 +1,37 @@
+# ==============================================================================
+# PressureIQ - Project Dependencies
+# SupeRR Selector Season 2 - Round 1
+# AI-Powered Cricket Pressure Performance Analytics & Player Ranking System
+# ==============================================================================
+
+# Data Processing & Storage
+pandas>=2.2.0
+numpy>=1.26.0
+pyarrow>=15.0.0
+
+# Scientific Computing & Machine Learning
+scikit-learn>=1.4.0
+scipy>=1.12.0
+statsmodels>=0.14.0
+
+# Data Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Interactive Dashboard
+streamlit>=1.32.0
+
+# Interactive Development & Notebooks
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# Utilities & Configuration
+joblib>=1.3.0
+openpyxl>=3.1.0
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+
+# Testing & Code Quality
+pytest>=8.0.0
+pytest-cov>=4.1.0

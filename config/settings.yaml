@@ -1,0 +1,39 @@
+# ==============================================================================
+# PressureIQ - Central Project Configuration
+# SupeRR Selector Season 2 - Round 1
+# Phase 0: Development Environment & Foundation Settings
+# ==============================================================================
+
+project:
+  name: "PressureIQ"
+  title: "AI-Powered Cricket Pressure Performance Analytics and Player Ranking System"
+  competition: "SupeRR Selector Season 2 — Round 1"
+  version: "0.1.0"
+  environment: "development"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  intermediate_dir: "data/intermediate"
+  external_dir: "data/external"
+
+outputs:
+  rankings_dir: "outputs/rankings"
+  charts_dir: "outputs/charts"
+  reports_dir: "outputs/reports"
+  logs_dir: "outputs/logs"
+
+notebooks:
+  dir: "notebooks"
+
+dashboard:
+  title: "PressureIQ"
+  subtitle: "AI-Powered Cricket Pressure Performance Analytics"
+  layout: "wide"
+  initial_sidebar_state: "expanded"
+
+logging:
+  level: "INFO"
+  filename: "pressureiq.log"
+  format: "%(asctime)s | %(levelname)-8s | %(name)s:%(funcName)s:%(lineno)d - %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"

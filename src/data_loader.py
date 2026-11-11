@@ -1,0 +1,9 @@
+"""PressureIQ - data_loader.py
+
+Dataset ingestion and raw CSV loading module (Planned for Phase 1).
+"""
+
+# TODO (Phase 0 -> Planned Phase Implementation):
+# This module is part of future project phases.
+# Per Phase 0 specifications, analytical implementation, calculations,
+# and fabricated functionality are strictly deferred to subsequent phases.

@@ -1,0 +1,73 @@
+# ==============================================================================
+# PressureIQ - Git Ignore Rules
+# ==============================================================================
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment Variables & Secrets
+.env
+.env.local
+*.secret
+*.pem
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+
+# Temporary & Build Artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.tmp
+*.bak
+*.swp
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDE & Editor Configurations
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+*.sublime-project
+*.sublime-workspace
+
+# Runtime Generated Logs & Intermediate Outputs (keep folder structure via .gitkeep)
+outputs/logs/*.log
+outputs/logs/*
+!outputs/logs/.gitkeep
+
+# Intermediate / Processed Cached Data (Raw data preserved locally)
+data/intermediate/*
+!data/intermediate/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+outputs/rankings/*
+!outputs/rankings/.gitkeep
+outputs/charts/*
+!outputs/charts/.gitkeep
+outputs/reports/*
+!outputs/reports/.gitkeep
