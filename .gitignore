@@ -65,6 +65,7 @@ data/raw/*.csv
 data/intermediate/*
 !data/intermediate/.gitkeep
 data/processed/*.csv
+data/processed/**/*.csv
 !data/processed/**/*.parquet
 !data/processed/*.parquet
 !data/processed/**/.gitkeep
