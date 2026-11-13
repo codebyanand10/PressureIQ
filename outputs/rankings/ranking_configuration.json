@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "weights": {
+    "primary": {
+      "quality_and_resilience": 0.5,
+      "absolute_performance": 0.2,
+      "consistency": 0.15,
+      "pressure_context": 0.15
+    },
+    "balanced": {
+      "quality_and_resilience": 0.4,
+      "absolute_performance": 0.3,
+      "consistency": 0.15,
+      "pressure_context": 0.15
+    },
+    "baseline_focused": {
+      "quality_and_resilience": 0.6,
+      "absolute_performance": 0.15,
+      "consistency": 0.15,
+      "pressure_context": 0.1
+    },
+    "absolute_focused": {
+      "quality_and_resilience": 0.3,
+      "absolute_performance": 0.45,
+      "consistency": 0.15,
+      "pressure_context": 0.1
+    }
+  },
+  "active_profile": "primary",
+  "batting_eligibility": {
+    "min_balls_faced": 40,
+    "min_matches": 4,
+    "min_innings": 3
+  },
+  "bowling_eligibility": {
+    "min_legal_balls": 48,
+    "min_matches": 4,
+    "min_innings": 3
+  },
+  "reliability": {
+    "method": "empirical_bayes_shrinkage",
+    "batting_prior_weight": 25.0,
+    "bowling_prior_weight": 30.0
+  }
+}

@@ -1,0 +1,825 @@
+player_id,player_name,role,balls_faced,matches_count,innings_count,has_baseline,is_registered,eligibility_status,is_eligible,exclusion_reason,legal_balls_bowled,matches_bowled,innings_bowled
+1040,Harpreet Bhatia,batter,14.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+1045,David Wiese,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+1100,Dinesh Chandimal,batter,22.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 22 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+1116,Craig Ervine,batter,8.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+1159,Tendai Chatara,batter,24.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+1171,Chris Woakes,batter,28.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+1187,Jason Roy,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+1205,Jonny Bairstow,batter,25.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+126,Rohit Sharma,batter,26.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+1389,Sean Abbott,batter,14.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+142,Shikhar Dhawan,batter,39.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 39 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+1440,Rahul Tripathi,batter,10.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+1481,Kusal Perera,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+1487,Adam Milne,batter,30.0,8.0,8.0,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 8 matches (below full threshold 40 balls / 4 matches),,,
+15269,Mohammed Aslam,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+15279,Shiraz Khan,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+15280,Sayed Monib,batter,11.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+1541,Sean Williams,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+1556,David Payne,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+15629,Shayan Jahangir,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+1566,Mohammed Shami,batter,36.0,11.0,11.0,True,True,Provisionally Eligible,False,Provisional sample: 36 balls in 11 matches (below full threshold 40 balls / 4 matches),,,
+1568,Kane Williamson,batter,15.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+158,Amit Mishra,batter,27.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 27 balls (< 20),,,
+161,Dwayne Bravo,batter,8.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+1612,Yuzvendra Chahal,batter,10.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+1617,Rishi Dhawan,batter,27.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 27 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+16284,Habibur Rahman Sohan,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+1649,Regis Chakabva,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+16498,Sultan Ahmad,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+16559,Alexander Patmore,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+1701,Swapnil Singh,batter,8.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+17419,Tim Tector,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+17424,Graham Hume,batter,20.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 20 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+17898,Bilal Sami,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+1791,Wesley Barresi,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+17911,Nangeyalia Kharote,batter,9.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+1810,Devon Thomas,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+19012,Zeeshan Ali,batter,21.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 21 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+19020,Ateeq Iqbal,batter,5.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+19125,Ayush Shukla,batter,7.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+19145,Aamer Jamal,batter,8.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+19147,Faraz Akram,batter,42.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 42 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+1924,Sam Billings,batter,31.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 31 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+19307,Tharindu Rathnayake,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+19312,Nuwan Thushara,batter,20.0,7.0,7.0,True,True,Provisionally Eligible,False,Provisional sample: 20 balls in 7 matches (below full threshold 40 balls / 4 matches),,,
+19315,Vijayakanth Viyaskanth,batter,11.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+1941,Devon Conway,batter,9.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+19530,Shahnawaz Dhani,batter,7.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+19535,Rejaur Rahman Raja,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+19754,Raja Khan,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+19781,Mitchell Owen,batter,8.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+19894,Mitchell Hay,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+19902,Tim Pringle,batter,30.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+20023,Karan Sharma,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+2003,Bhanuka Rajapaksa,batter,38.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 38 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+20175,Nandan Yadav,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+20229,Mohammad Ali,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+20310,Ahmed Daniyal,batter,22.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 22 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+20316,Shahab Alam,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+20327,Usman Khan,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+2054,Jason Behrendorff,batter,11.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+20704,Salman Mirza,batter,4.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+20802,Abdul Basith,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+2101,Quinton de Kock,batter,18.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 20),,,
+21196,Mohammad Waheed,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+21388,Martin Coetzee,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+21777,Tafadzwa Tsiga,batter,19.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 20),,,
+21780,Ernest Masuku,batter,6.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+220,David Warner,batter,38.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 38 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+22137,Fionn Hand,batter,30.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+2214,Gulbadin Naib,batter,24.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+22187,Ryan Klein,batter,46.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 46 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+22188,Aryan Dutt,batter,40.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 40 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+22471,Matthew Humphreys,batter,5.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+22920,Jacob Duffy,batter,30.0,10.0,10.0,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 10 matches (below full threshold 40 balls / 4 matches),,,
+2296,Safyaan Sharif,batter,6.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+23,Piyush Chawla,batter,32.0,9.0,9.0,True,True,Provisionally Eligible,False,Provisional sample: 32 balls in 9 matches (below full threshold 40 balls / 4 matches),,,
+2304,Tymal Mills,batter,13.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+2315,Reece Topley,batter,21.0,6.0,6.0,True,True,Provisionally Eligible,False,Provisional sample: 21 balls in 6 matches (below full threshold 40 balls / 4 matches),,,
+2321,Olly Stone,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+23311,Jacob Bethell,batter,13.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+2334,Dwaine Pretorius,batter,27.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 27 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+23450,Sai Sudharsan,batter,25.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+23467,Gurjapneet Singh,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+2373,Ashton Turner,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+2379,Ben Duckett,batter,6.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+24017,Brian Bennett,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+2411,Sandeep Sharma,batter,11.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+24346,Mohamed Shafeeq,batter,6.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+24372,Muzahir Raza,batter,27.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 27 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+24381,Shariz Ahmad,batter,4.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+2439,Akila Dananjaya,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+24475,Rehan Ahmed,batter,15.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+24767,Ripon Mondol,batter,10.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+24779,Ijaz Ahmadzai,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+24812,Chris Greaves,batter,10.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+2483,Lizaad Williams,batter,19.0,8.0,8.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 20),,,
+2485,Babar Azam,batter,18.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 20),,,
+24887,Innocent Kaia,batter,10.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+25011,Liam Mccarthy,batter,16.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 20),,,
+25030,Zaman Khan,batter,10.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+25048,Umran Malik,batter,18.0,7.0,7.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 20),,,
+25128,Nqabayomzi Peter,batter,13.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+25132,Praful Hinge,batter,9.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+25138,Harsh Dubey,batter,8.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+25213,Dewald Brevis,batter,18.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 20),,,
+25216,Andile Simelane,batter,23.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 23 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+2523,Will Young,batter,10.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+25231,Samay Shrivastava,batter,26.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+2533,Najibullah Zadran,batter,26.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+25341,Mahfuzur Rabby,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+25507,Edson Silva,batter,12.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+25669,Priyansh Arya,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+25679,Salil Arora,batter,13.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+2573,Evin Lewis,batter,12.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+25809,Juanoy Drysdale,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+26514,Nimesh Vimukthi,batter,12.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+26519,Janith Liyanage,batter,11.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+26530,Treveen Mathew,batter,12.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+26663,Kwena Maphaka,batter,21.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 21 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+2671,Liton Das,batter,5.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+26830,Nishant Kumar Sindhu,batter,13.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+26839,Haseebullah Khan,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+26848,Ghazi Ghouri,batter,18.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 20),,,
+26854,SM Meherob Hasan,batter,42.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 42 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+26906,Angkrish Raghuvanshi,batter,27.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 27 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+26916,Yasir Mohammad,batter,9.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+26988,Jitenkumar Ramanandi,batter,14.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+27004,Hassnain Shah,batter,5.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+27071,Vinayak Shukla,batter,7.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+27137,Hammad Mirza,batter,10.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+27259,Jishan Alam,batter,0.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 0 balls (< 20),,,
+27364,Simranjeet Kang,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+27373,Muhammad Farooq,batter,21.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 21 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+27380,Harshit Kaushik,batter,13.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+27390,Matiullah Khan,batter,5.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+27460,Ali Naseer,batter,7.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+27465,Nilansh Keswani,batter,10.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+27469,Aryansh Sharma,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+2750,Alex Carey,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+27504,Dushan Hemantha,batter,20.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 20 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+27516,Ihsanullah Ihsanullah,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+27743,DT Doram,batter,6.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+2790,Praveen Dubey,batter,9.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+27959,Hrithik Shokeen,batter,18.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 20),,,
+27960,Mayank Yadav,batter,12.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+27964,Anshul Kamboj,batter,37.0,6.0,6.0,True,True,Provisionally Eligible,False,Provisional sample: 37 balls in 6 matches (below full threshold 40 balls / 4 matches),,,
+28,Ishant Sharma,batter,8.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+28018,Ashok Sharma,batter,4.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+28021,Saurabh Dubey,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+286,Kane Richardson,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+28655,Muhammad Rohid,batter,5.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+28756,Haider Ali,batter,39.0,9.0,9.0,True,True,Provisionally Eligible,False,Provisional sample: 39 balls in 9 matches (below full threshold 40 balls / 4 matches),,,
+2878,Mohit Sharma,batter,19.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 20),,,
+28908,Vincent Masekesa,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+28915,Trevor Gwandu,batter,26.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+2892,Asif Ali,batter,20.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 20 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+29080,Muhammad Khan,batter,11.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+2921,Fakhar Zaman,batter,16.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 20),,,
+2930,Rassie van der Dussen,batter,10.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+2933,Jasprit Bumrah,batter,31.0,13.0,13.0,True,True,Provisionally Eligible,False,Provisional sample: 31 balls in 13 matches (below full threshold 40 balls / 4 matches),,,
+29833,Bashir Ahmad,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+2985,Mark Wood,batter,20.0,6.0,6.0,True,True,Provisionally Eligible,False,Provisional sample: 20 balls in 6 matches (below full threshold 40 balls / 4 matches),,,
+2997,Paul van Meekeren,batter,17.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 20),,,
+3024,Mohammad Rizwan,batter,31.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 31 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+3033,Usman Qadir,batter,7.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+3077,Usama Mir,batter,7.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+3091,Sahibzada Farhan,batter,5.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+30925,Bradley Currie,batter,9.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+3097,Shan Masood,batter,40.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 40 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+31107,Yasin Patel,batter,7.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+3135,Yannic Cariah,batter,4.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+3174,Matt Henry,batter,15.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+31835,Akshay Roopak Puri,batter,5.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+31836,Aman Desai,batter,9.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+32401,Akhil Kumar,batter,12.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+32705,Faridoon Dawoodzai,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+3280,Nazmul Hossain Shanto,batter,3.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+3281,Mosaddek Hossain,batter,38.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 38 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+3282,Mehidy Hasan Miraz,batter,25.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+3285,Abu Haider,batter,24.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 24 balls (< 20),,,
+32862,Allah Ghazanfar,batter,15.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+33114,Milan Rathnayake,batter,28.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 28 balls (< 20),,,
+332,Angelo Mathews,batter,26.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+33440,Adwitya Bhargava,batter,6.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+3373,Aizaz Khan,batter,18.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 20),,,
+3377,Babar Hayat,batter,28.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+3383,Kinchit Shah,batter,22.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 22 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+3415,Matthew Cross,batter,7.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+344,Sheldon Jackson,batter,9.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+34466,Arafat Minhas,batter,20.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 20 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+34485,Sufiyan Muqeem,batter,32.0,11.0,11.0,True,True,Provisionally Eligible,False,Provisional sample: 32 balls in 11 matches (below full threshold 40 balls / 4 matches),,,
+34527,Jasper John Davidson,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+34546,Aryan Bisht,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+3469,Shreyas Gopal,batter,7.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+34880,Saad Masood,batter,26.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+34969,Manav Suthar,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+35102,Zikria Islam,batter,35.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+35122,Shah Faisal,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+35318,Sakib Hussain,batter,7.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+3543,Shahidullah Kamal,batter,5.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+3550,Sharafuddin Ashraf,batter,11.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+35506,Quentin Sampson,batter,11.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+3578,Imad Wasim,batter,47.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 47 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+3595,Andy McBrine,batter,8.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+3613,Shakeel Ahmed,batter,35.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+36153,Syed Haider,batter,11.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+3622,Hayden Walsh,batter,15.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+3623,Hasan Ali,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+3627,Andile Phehlukwayo,batter,18.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 20),,,
+3635,Jason Smith,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+3641,Ben Dwarshuis,batter,33.0,7.0,7.0,True,True,Provisionally Eligible,False,Provisional sample: 33 balls in 7 matches (below full threshold 40 balls / 4 matches),,,
+3645,Sarfaraz Khan,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+36551,Zishan Motara,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+36553,Jediah Blades,batter,13.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+3660,Luke Wood,batter,8.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+3664,Binura Fernando,batter,25.0,7.0,7.0,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 7 matches (below full threshold 40 balls / 4 matches),,,
+3672,Kusal Mendis,batter,8.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+3673,Ramesh Mendis,batter,11.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+3683,Gavin Main,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+3686,CB Sole,batter,15.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+3689,Mark Watt,batter,15.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+36982,Suyash Sharma,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+36983,Mohit Rathee,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+3700,Tim Seifert,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+3720,Craig Young,batter,30.0,8.0,8.0,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 8 matches (below full threshold 40 balls / 4 matches),,,
+3727,Matthew Short,batter,23.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 23 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+37311,Shiv Mathur,batter,16.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 20),,,
+37572,Shafiq Jan,batter,3.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+3771,Vivian Kingma,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+3772,Logan van Beek,batter,16.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 20),,,
+37731,Musheer Khan,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+3775,Sompal Kami,batter,8.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+37939,Nahid Rana,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+38050,Isitha Wijesundera,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+3839,Amjad Mahboob,batter,19.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 20),,,
+3871,Aamir Kaleem,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+3876,Sufyan Mehmood,batter,5.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+39444,Basil Hameed,batter,17.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 20),,,
+395,Karn Sharma,batter,17.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 20),,,
+3954,Andrew Balbirnie,batter,10.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+39637,Garuka Sanketh,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+39657,Eshan Malinga,batter,37.0,11.0,11.0,True,True,Provisionally Eligible,False,Provisional sample: 37 balls in 11 matches (below full threshold 40 balls / 4 matches),,,
+3995,Donald Tiripano,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+39991,Parveen Kumar,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+4007,Ryan Rickelton,batter,16.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 20),,,
+41110,Mayank Kumar,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+4117,Ishan Kishan,batter,22.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 22 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+41509,Yayin Rai,batter,7.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+4201,Fareed Malik,batter,20.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 20 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+4211,Vishnu Vinod,batter,10.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+4221,Chris Green,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+4237,Tabraiz Shamsi,batter,7.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+4246,Nitish Rana,batter,25.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+42548,Muhammad Jawadullah,batter,24.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+4265,T Natarajan,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+42810,Noah Croes,batter,13.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+4369,Shai Hope,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+43917,Krish Bhagat,batter,16.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 20),,,
+4417,Karan KC,batter,2.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+4438,Jasdeep Singh,batter,13.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+4450,Mehran Khan,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+4460,Jeffrey Vandersay,batter,9.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+4487,Vyshak Kumar,batter,15.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+4489,Prasidh Krishna,batter,22.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 22 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+4494,Abhinav Manohar,batter,30.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+4499,Saqib Mahmood,batter,33.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 33 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+4505,Jhye Richardson,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+45381,PV Satyanarayan Raju,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+45966,Prashant Veer,batter,32.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 32 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+4604,Mitchell Swepson,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+46137,Kartik Sharma,batter,7.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+4636,Bjorn Fortuin,batter,35.0,6.0,6.0,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 6 matches (below full threshold 40 balls / 4 matches),,,
+46378,Kyle Klein,batter,26.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+4662,Cole McConchie,batter,22.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 22 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+4692,Lockie Ferguson,batter,29.0,12.0,12.0,True,True,Provisionally Eligible,False,Provisional sample: 29 balls in 12 matches (below full threshold 40 balls / 4 matches),,,
+46929,Dian Forrester,batter,7.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+46982,Shahid Aziz,batter,15.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+47,Virat Kohli,batter,8.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+470,Mohammad Amir,batter,4.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+47017,Mohammad Jnr,batter,12.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+4703,Rishabh Pant,batter,33.0,6.0,6.0,True,True,Provisionally Eligible,False,Provisional sample: 33 balls in 6 matches (below full threshold 40 balls / 4 matches),,,
+47050,Shamar Joseph,batter,29.0,7.0,7.0,True,True,Provisionally Eligible,False,Provisional sample: 29 balls in 7 matches (below full threshold 40 balls / 4 matches),,,
+4716,Mayank Dagar,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+4736,Josh Inglis,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+47370,Aniket Verma,batter,24.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+47371,Zuhaid Zubair,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+47403,Newman Nyamhuri,batter,20.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 20 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+47694,Omid Rahman,batter,4.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+47724,Jahandad Khan,batter,15.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+4779,Pieter Willem Mulder,batter,14.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+478,Eoin Morgan,batter,19.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 20),,,
+4780,Mohammad Saif Hassan,batter,14.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+4790,Lutho Sipamla,batter,14.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+4807,Joshua Little,batter,19.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 20),,,
+4812,Harry Tector,batter,14.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+4814,Lorcan Tucker,batter,9.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+4815,Benjamin White,batter,14.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+4816,Khaleel Ahmed,batter,5.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+4821,Mahipal Lomror,batter,28.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+4826,George Garton,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+48278,Ubaid Shah,batter,3.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+4830,Keacy Carty,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+4838,Keemo Paul,batter,28.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+4853,Glenn Phillips,batter,37.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 37 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+4854,Rachin Ravindra,batter,21.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 21 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+4856,Benjamin Sears,batter,32.0,8.0,8.0,True,True,Provisionally Eligible,False,Provisional sample: 32 balls in 8 matches (below full threshold 40 balls / 4 matches),,,
+48616,Abdul Saqlain,batter,24.0,2.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+4871,Brandon Mavuta,batter,7.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+4876,Milton Shumba,batter,10.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+4895,Charith Asalanka,batter,28.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+4901,Asitha Fernando,batter,5.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+4902,Avishka Fernando,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+49027,Bevon Jacobs,batter,16.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 20),,,
+4926,Shadab Khan,batter,26.0,6.0,6.0,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 6 matches (below full threshold 40 balls / 4 matches),,,
+49268,Sohaib Khan,batter,17.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 20),,,
+4947,Kasun Rajitha,batter,9.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+4974,Mohammad Nadeem,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+499,Shakib Al Hasan,batter,34.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 34 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+50062,Nqobani Mokoena,batter,21.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 21 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+5034,Murugan Ashwin,batter,14.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+5039,Rajat Patidar,batter,18.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 20),,,
+5041,Mukesh Kumar,batter,23.0,8.0,8.0,True,True,Provisionally Eligible,False,Provisional sample: 23 balls in 8 matches (below full threshold 40 balls / 4 matches),,,
+507,Mohammad Mahmudullah,batter,44.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 44 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+535,Ambati Rayudu,batter,23.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 23 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+54404,Benjamin Ito,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+5547,Nosthush Kenjige,batter,8.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+5553,Phil Salt,batter,32.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 32 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+5561,Brad Wheal,batter,12.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+5562,Richard Gleeson,batter,6.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+5577,Sai Kishore,batter,15.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+5665,Sanjay Yadav,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+56685,Abdullah Ahmadzai,batter,12.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+56817,Shivang Kumar,batter,34.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 34 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+56830,Madhav Tiwari,batter,12.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+5750,Ehsan Khan,batter,33.0,8.0,8.0,True,True,Provisionally Eligible,False,Provisional sample: 33 balls in 8 matches (below full threshold 40 balls / 4 matches),,,
+57747,Charlie Cassell,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+58134,Digvesh Rathi,batter,8.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+58246,Prince Yadav,batter,37.0,8.0,8.0,True,True,Provisionally Eligible,False,Provisional sample: 37 balls in 8 matches (below full threshold 40 balls / 4 matches),,,
+5866,Patrick Kruger,batter,21.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 21 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+5882,Afif Hossain,batter,24.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+5892,Blair Tickner,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+59045,Jai Moondra,batter,3.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+5939,Cameron Green,batter,28.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+5940,Riley Meredith,batter,3.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+5977,Khary Pierre,batter,15.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+5979,Abrar Ahmed,batter,11.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+6025,Henry Shipley,batter,2.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+6059,Ruturaj Gaikwad,batter,14.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+60609,Navin Bidaisee,batter,16.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 20),,,
+6166,Jack Edwards,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+6179,Nipun Ransika,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+6203,Surendran Chandramohan,batter,10.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+6272,William Jacks,batter,15.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+6273,Tom Banton,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+6280,Harry Brook,batter,13.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+6281,Abhishek Sharma,batter,17.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 20),,,
+6284,Anukul Roy,batter,36.0,8.0,8.0,True,True,Provisionally Eligible,False,Provisional sample: 36 balls in 8 matches (below full threshold 40 balls / 4 matches),,,
+6286,Shivam Mavi,batter,24.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+6287,Yash Thakur,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+6288,Shubman Gill,batter,15.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+6297,Matthew Parkinson,batter,5.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+6314,Devdutt Padikkal,batter,18.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 20),,,
+6342,Matthew Breetzke,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+6350,Matthew Kuhnemann,batter,12.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+6354,Spencer Johnson,batter,13.0,7.0,7.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+6389,Tanvir Islam,batter,12.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+6395,Josh Philippe,batter,14.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+6398,Aaron Hardie,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+6433,Darwish Rasooli,batter,13.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+6436,Qais Ahmad,batter,22.0,6.0,6.0,True,True,Provisionally Eligible,False,Provisional sample: 22 balls in 6 matches (below full threshold 40 balls / 4 matches),,,
+6440,Omair Yousuf,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+64604,Kalhan Challu,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+6467,Anuj Rawat,batter,21.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 21 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+6487,Priyam Garg,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+6489,Darshan Nalkande,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+6503,Zahoor Khan,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+6512,Michael Bracewell,batter,13.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+6514,Anil Nidamanuru,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+6515,Benjamin Lister,batter,6.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+6518,Daniel Sams,batter,14.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+6526,Himmat Singh,batter,11.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+6591,KM Asif,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+6645,Mohammad Sheikh,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+6664,Dion Myers,batter,25.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 25 balls (< 20),,,
+6669,Mohsin Khan,batter,27.0,6.0,6.0,True,True,Provisionally Eligible,False,Provisional sample: 27 balls in 6 matches (below full threshold 40 balls / 4 matches),,,
+6674,Rahmanullah Gurbaz,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+6677,Mohammad Hasnain,batter,13.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+6683,Mayank Markande,batter,13.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+6697,Shams Mulani,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+67036,Brijesh Sharma,batter,4.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+6705,Scott McKechnie,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+6772,Chetan Sakariya,batter,6.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+6784,Hassan Mohammad,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+6795,Terrance Hinds,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+6797,Dominic Drakes,batter,12.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+6806,Tushar Deshpande,batter,24.0,8.0,8.0,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 8 matches (below full threshold 40 balls / 4 matches),,,
+6881,Scott Edwards,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+6922,Abdul Samad,batter,52.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 52 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+6931,Pathum Nissanka,batter,30.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+6932,Pramod Madushan,batter,12.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+6985,Bas de Leede,batter,24.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+6995,Saad Zafar,batter,9.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+7001,Dilon Heyliger,batter,16.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 20),,,
+7008,Gus Atkinson,batter,10.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+7052,Dunith Wellalage,batter,23.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 23 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+7060,Arjun Tendulkar,batter,9.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+7140,Senuran Muthusamy,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+7155,Sahan Arachchige,batter,38.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 38 balls (< 20),,,
+7201,Haroon Arshad,batter,12.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+722,Liam Dawson,batter,20.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 20 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+7227,Nijat Masood,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+7250,Mukesh Choudhary,batter,8.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+7269,Sushant Mishra,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+7304,Sanvir Singh,batter,7.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+7312,Nandre Burger,batter,26.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+7322,Yash Dayal,batter,9.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+7327,Rasikh Salam,batter,29.0,6.0,6.0,True,True,Provisionally Eligible,False,Provisional sample: 29 balls in 6 matches (below full threshold 40 balls / 4 matches),,,
+7338,Haider Ali,batter,7.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+7406,Rizwan CP,batter,20.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 20 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+7473,Akash Deep,batter,12.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+7533,Simarjeet Singh,batter,12.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+7545,Kuldeep Sen,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+7574,Kumar Kartikeya Singh,batter,16.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 20),,,
+7625,Suryansh Shedge,batter,27.0,5.0,5.0,True,True,Provisionally Eligible,False,Provisional sample: 27 balls in 5 matches (below full threshold 40 balls / 4 matches),,,
+7689,Dilshan Madushanka,batter,12.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+7696,Mohammad Wasim,batter,18.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 20),,,
+7702,Chamindu Wickramasinghe,batter,24.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+7704,Pavan Rathnayake,batter,15.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+7709,Ainsley Ndlovu,batter,28.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+7710,Brandon Glover,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+7755,Harsh Thaker,batter,9.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+7756,Kaleem Sana,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+7761,Ravinderpal Singh,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+778,Darren Bravo,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+781,Sunil Narine,batter,36.0,9.0,9.0,True,True,Provisionally Eligible,False,Provisional sample: 36 balls in 9 matches (below full threshold 40 balls / 4 matches),,,
+7894,Tony Munyonga,batter,10.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+7900,Tanzid Hasan,batter,2.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+7904,Mohammad Chowdhury,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+7906,Rakibul Hasan,batter,25.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+7914,Clayton Floyd,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+7920,Nathan Ellis,batter,38.0,10.0,10.0,True,True,Provisionally Eligible,False,Provisional sample: 38 balls in 10 matches (below full threshold 40 balls / 4 matches),,,
+7927,Janak Prakash,batter,20.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 20 balls (< 20),,,
+7928,Vinoth Baskaran,batter,5.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 20),,,
+7929,Aryaman Sunil Uchil,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+7935,Mohammad Ghazanfar,batter,4.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+7937,Wasim Ali,batter,8.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+7942,Jay Odedara,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+7945,Nasrulla Rana,batter,11.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+7966,Farmanullah Safi,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+7978,Johnathan Campbell,batter,15.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+8005,Zawar Farid,batter,9.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 20),,,
+8009,Junaid Siddique,batter,38.0,10.0,10.0,True,True,Provisionally Eligible,False,Provisional sample: 38 balls in 10 matches (below full threshold 40 balls / 4 matches),,,
+8014,Avi Dixit,batter,21.0,2.0,2.0,True,True,Provisionally Eligible,False,Provisional sample: 21 balls in 2 matches (below full threshold 40 balls / 4 matches),,,
+8033,Abdul Rahmani,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+8040,Ripal Patel,batter,26.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+8049,Naseem Shah,batter,33.0,9.0,9.0,True,True,Provisionally Eligible,False,Provisional sample: 33 balls in 9 matches (below full threshold 40 balls / 4 matches),,,
+8085,Suyash Prabhudessai,batter,33.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 33 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+8141,Auqib Nabi,batter,3.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+8177,Akash Madhwal,batter,14.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+818,Mitchell Marsh,batter,13.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 20),,,
+8238,Sameer Rizvi,batter,24.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+8241,Lokesh Bam,batter,10.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+8251,Kumar Kushagra,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+8266,Sumit Kumar 1,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+829,Mitchell Starc,batter,19.0,8.0,8.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 20),,,
+8298,Ramon Simmonds,batter,2.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 20),,,
+830,Josh Hazlewood,batter,39.0,12.0,12.0,True,True,Provisionally Eligible,False,Provisional sample: 39 balls in 12 matches (below full threshold 40 balls / 4 matches),,,
+8326,Jayden Seales,batter,6.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+8388,Ahan Wickramasinghe,batter,17.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 20),,,
+8408,Shreyas Movva,batter,12.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+8424,Tanveer Sangha,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+8530,Kartik Tyagi,batter,12.0,4.0,4.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+8580,Yudhvir Singh,batter,15.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 20),,,
+8600,Tadiwanashe Marumani,batter,16.0,5.0,5.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 20),,,
+8623,Kristian Clarke,batter,1.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 20),,,
+8634,Ashwani Kumar,batter,6.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 20),,,
+8638,Basil Hameed,batter,33.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 33 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+8639,Kartik Meiyappan,batter,12.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 20),,,
+8647,Sediqullah Atal,batter,35.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+8652,Mohammad Ishaq,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+8654,Cooper Connolly,batter,34.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 34 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+8661,Matheesha Pathirana,batter,32.0,9.0,9.0,True,True,Provisionally Eligible,False,Provisional sample: 32 balls in 9 matches (below full threshold 40 balls / 4 matches),,,
+8664,Victor Nyauchi,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+8723,Mohammed Faraazuddin,batter,25.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+8726,Alishan Sharafu,batter,8.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 20),,,
+8727,Sanchit Sharma,batter,7.0,3.0,3.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 20),,,
+8729,Haider Shah,batter,11.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 20),,,
+8739,Muhammad Irfan,batter,29.0,3.0,3.0,True,True,Provisionally Eligible,False,Provisional sample: 29 balls in 3 matches (below full threshold 40 balls / 4 matches),,,
+8741,Mohammad Haris,batter,10.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 20),,,
+8746,Vaibhav Arora,batter,14.0,9.0,9.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 20),,,
+88,Faf du Plessis,batter,3.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+8805,Ottneil Baartman,batter,35.0,6.0,6.0,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 6 matches (below full threshold 40 balls / 4 matches),,,
+914,Krishnappa Gowtham,batter,21.0,4.0,4.0,True,True,Provisionally Eligible,False,Provisional sample: 21 balls in 4 matches (below full threshold 40 balls / 4 matches),,,
+953,Lokesh Rahul,batter,31.0,6.0,6.0,True,True,Provisionally Eligible,False,Provisional sample: 31 balls in 6 matches (below full threshold 40 balls / 4 matches),,,
+988,Graeme Cremer,batter,4.0,1.0,1.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 20),,,
+992,Mayank Agarwal,batter,3.0,2.0,2.0,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 20),,,
+1045,David Wiese,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 24),13.0,1.0,1.0
+1101,George Dockrell,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 5 matches (below full threshold 48 balls / 4 matches),26.0,5.0,5.0
+1171,Chris Woakes,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 24),19.0,3.0,3.0
+147,Pradeep Sangwan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 24),17.0,2.0,2.0
+15269,Mohammed Aslam,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+15279,Shiraz Khan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 24 balls (< 24),24.0,1.0,1.0
+15280,Sayed Monib,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 2 matches (below full threshold 48 balls / 4 matches),28.0,2.0,2.0
+1541,Sean Williams,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+1556,David Payne,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 24),2.0,1.0,1.0
+158,Amit Mishra,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 32 balls in 3 matches (below full threshold 48 balls / 4 matches),32.0,3.0,3.0
+161,Dwayne Bravo,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 39 balls in 5 matches (below full threshold 48 balls / 4 matches),39.0,5.0,5.0
+1617,Rishi Dhawan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+1699,Suryakumar Yadav,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 24),1.0,1.0,1.0
+1701,Swapnil Singh,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 24),16.0,2.0,2.0
+17430,Conor Olphert,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 2 matches (below full threshold 48 balls / 4 matches),30.0,2.0,2.0
+1772,Sheldon Cottrell,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 24),15.0,5.0,5.0
+17898,Bilal Sami,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 21 balls (< 24),21.0,2.0,2.0
+17911,Nangeyalia Kharote,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,2.0,2.0
+19020,Ateeq Iqbal,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 5 matches (below full threshold 48 balls / 4 matches),35.0,5.0,5.0
+19145,Aamer Jamal,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 49 balls in 3 matches (below full threshold 48 balls / 4 matches),49.0,3.0,3.0
+19147,Faraz Akram,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 5 matches (below full threshold 48 balls / 4 matches),24.0,5.0,5.0
+19307,Tharindu Rathnayake,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+19315,Vijayakanth Viyaskanth,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 38 balls in 3 matches (below full threshold 48 balls / 4 matches),38.0,3.0,3.0
+19530,Shahnawaz Dhani,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 45 balls in 6 matches (below full threshold 48 balls / 4 matches),45.0,6.0,6.0
+19754,Raja Khan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 24),7.0,2.0,2.0
+19781,Mitchell Owen,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 24),18.0,2.0,2.0
+19902,Tim Pringle,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 27 balls in 4 matches (below full threshold 48 balls / 4 matches),27.0,4.0,4.0
+20006,Ramandeep Singh,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 46 balls in 6 matches (below full threshold 48 balls / 4 matches),46.0,6.0,6.0
+20229,Mohammad Ali,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+20310,Ahmed Daniyal,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,2.0,3.0
+20316,Shahab Alam,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+20702,Tristan Stubbs,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 4 matches (below full threshold 48 balls / 4 matches),24.0,4.0,4.0
+20989,Vivrant Sharma,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+21196,Mohammad Waheed,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 24),10.0,1.0,1.0
+21780,Ernest Masuku,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+21786,Tanaka Chivanga,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 24),3.0,1.0,1.0
+2213,Soumya Sarkar,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 32 balls in 5 matches (below full threshold 48 balls / 4 matches),32.0,5.0,5.0
+22134,Luke Jongwe,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 38 balls in 6 matches (below full threshold 48 balls / 4 matches),38.0,6.0,6.0
+22137,Fionn Hand,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 41 balls in 6 matches (below full threshold 48 balls / 4 matches),41.0,6.0,6.0
+22187,Ryan Klein,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+22188,Aryan Dutt,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 20 balls (< 24),20.0,2.0,2.0
+22471,Matthew Humphreys,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 32 balls in 3 matches (below full threshold 48 balls / 4 matches),32.0,3.0,3.0
+22565,Muhammad Waseem,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+2296,Safyaan Sharif,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 24),9.0,1.0,1.0
+2321,Olly Stone,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 24 balls (< 24),24.0,1.0,1.0
+23311,Jacob Bethell,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 3 matches (below full threshold 48 balls / 4 matches),26.0,3.0,3.0
+2351,Danushka Gunathilaka,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 24),5.0,1.0,1.0
+2364,Ashton Agar,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 20 balls (< 24),20.0,2.0,2.0
+2367,Travis Head,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 24),10.0,1.0,1.0
+2407,Dhananjaya de Silva,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 3 matches (below full threshold 48 balls / 4 matches),28.0,3.0,3.0
+2416,Kyle Mayers,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 36 balls in 7 matches (below full threshold 48 balls / 4 matches),36.0,7.0,7.0
+24346,Mohamed Shafeeq,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 21 balls (< 24),21.0,2.0,2.0
+24372,Muzahir Raza,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 22 balls (< 24),22.0,2.0,2.0
+2439,Akila Dananjaya,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 24 balls (< 24),24.0,1.0,1.0
+24473,Sonny Baker,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 3 matches (below full threshold 48 balls / 4 matches),24.0,3.0,3.0
+24475,Rehan Ahmed,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 4 matches (below full threshold 48 balls / 4 matches),26.0,4.0,4.0
+2463,Ryan Burl,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 45 balls in 5 matches (below full threshold 48 balls / 4 matches),45.0,5.0,5.0
+24767,Ripon Mondol,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 37 balls in 7 matches (below full threshold 48 balls / 4 matches),37.0,7.0,7.0
+24812,Chris Greaves,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 24),18.0,2.0,2.0
+24978,Jack Jarvis,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 24),4.0,1.0,1.0
+25011,Liam Mccarthy,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 24 balls (< 24),24.0,1.0,1.0
+25213,Dewald Brevis,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 24),3.0,1.0,1.0
+25231,Samay Shrivastava,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 44 balls in 5 matches (below full threshold 48 balls / 4 matches),44.0,5.0,5.0
+25341,Mahfuzur Rabby,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+25507,Edson Silva,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+25809,Juanoy Drysdale,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 39 balls in 2 matches (below full threshold 48 balls / 4 matches),39.0,2.0,2.0
+26514,Nimesh Vimukthi,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 2 matches (below full threshold 48 balls / 4 matches),25.0,2.0,2.0
+26519,Janith Liyanage,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 24),4.0,1.0,1.0
+26530,Treveen Mathew,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 21 balls (< 24),21.0,1.0,1.0
+26830,Nishant Kumar Sindhu,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 24),5.0,1.0,1.0
+26843,Maaz Sadaqat,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+26854,SM Meherob Hasan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 24),7.0,2.0,2.0
+26916,Yasir Mohammad,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 3 matches (below full threshold 48 balls / 4 matches),30.0,3.0,3.0
+26988,Jitenkumar Ramanandi,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 34 balls in 2 matches (below full threshold 48 balls / 4 matches),34.0,2.0,2.0
+27004,Hassnain Shah,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 21 balls (< 24),21.0,2.0,2.0
+27259,Jishan Alam,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 24),1.0,1.0,1.0
+27364,Simranjeet Kang,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 20 balls (< 24),20.0,2.0,2.0
+27373,Muhammad Farooq,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 46 balls in 4 matches (below full threshold 48 balls / 4 matches),46.0,4.0,4.0
+27380,Harshit Kaushik,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+27390,Matiullah Khan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 22 balls (< 24),22.0,3.0,3.0
+27391,Vishnu Sukumaran,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+27460,Ali Naseer,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+27464,Aayan Afzal Khan,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 46 balls in 6 matches (below full threshold 48 balls / 4 matches),46.0,6.0,6.0
+27465,Nilansh Keswani,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 24),3.0,1.0,1.0
+27516,Ihsanullah Ihsanullah,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 24),5.0,1.0,1.0
+27743,DT Doram,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 4 matches (below full threshold 48 balls / 4 matches),35.0,4.0,4.0
+27956,Prashant Solanki,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+27959,Hrithik Shokeen,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 2 matches (below full threshold 48 balls / 4 matches),28.0,2.0,2.0
+27970,Gurnoor Brar,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+28018,Ashok Sharma,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 3 matches (below full threshold 48 balls / 4 matches),26.0,3.0,3.0
+28021,Saurabh Dubey,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 24),13.0,2.0,2.0
+2852,Jagadeesha Suchith,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 24),8.0,1.0,1.0
+2863,Sandeep Warrier,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 3 matches (below full threshold 48 balls / 4 matches),26.0,3.0,3.0
+2872,Siddarth Kaul,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 24),5.0,1.0,1.0
+2887,Harmeet Singh,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 40 balls in 2 matches (below full threshold 48 balls / 4 matches),40.0,2.0,2.0
+28908,Vincent Masekesa,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 24),1.0,1.0,1.0
+28915,Trevor Gwandu,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 44 balls in 7 matches (below full threshold 48 balls / 4 matches),44.0,7.0,7.0
+29080,Muhammad Khan,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 41 balls in 3 matches (below full threshold 48 balls / 4 matches),41.0,3.0,3.0
+29558,Muhammad Arfan,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 45 balls in 4 matches (below full threshold 48 balls / 4 matches),45.0,4.0,4.0
+29699,Ibrahim Takahashi,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 24),1.0,1.0,1.0
+2972,Yasim Murtaza,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 6 matches (below full threshold 48 balls / 4 matches),30.0,6.0,6.0
+2997,Paul van Meekeren,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 5 matches (below full threshold 48 balls / 4 matches),30.0,5.0,5.0
+3033,Usman Qadir,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 23 balls (< 24),23.0,2.0,2.0
+3040,Kashif Daud,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 24),4.0,1.0,1.0
+3056,Iftikhar Ahmed,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 4 matches (below full threshold 48 balls / 4 matches),35.0,4.0,4.0
+3077,Usama Mir,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 69 balls in 3 matches (below full threshold 48 balls / 4 matches),69.0,3.0,3.0
+30925,Bradley Currie,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 3 matches (below full threshold 48 balls / 4 matches),28.0,3.0,3.0
+31107,Yasin Patel,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 22 balls (< 24),22.0,1.0,1.0
+31227,Vidhwath Kaverappa,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 24),17.0,1.0,1.0
+3135,Yannic Cariah,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+31835,Akshay Roopak Puri,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 23 balls (< 24),23.0,2.0,2.0
+32244,Tripurana Vijay,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+32401,Akhil Kumar,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 24),4.0,1.0,1.0
+3253,Rohan Mustafa,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 24),3.0,1.0,1.0
+32705,Faridoon Dawoodzai,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 24),10.0,2.0,2.0
+3272,Fabian Allen,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 32 balls in 4 matches (below full threshold 48 balls / 4 matches),32.0,4.0,4.0
+3281,Mosaddek Hossain,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 29 balls in 6 matches (below full threshold 48 balls / 4 matches),29.0,6.0,6.0
+3282,Mehidy Hasan Miraz,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 32 balls in 4 matches (below full threshold 48 balls / 4 matches),32.0,4.0,4.0
+3285,Abu Haider,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 24),14.0,4.0,4.0
+3299,Andrew Tye,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 2 matches (below full threshold 48 balls / 4 matches),24.0,2.0,2.0
+33009,John Turner,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 24),13.0,2.0,2.0
+33114,Milan Rathnayake,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 24),14.0,2.0,2.0
+332,Angelo Mathews,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 24),18.0,3.0,3.0
+33440,Adwitya Bhargava,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 24),11.0,1.0,1.0
+33443,Sabir Ali,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 24),15.0,2.0,2.0
+3361,Michael Leask,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 24),11.0,1.0,1.0
+3373,Aizaz Khan,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 31 balls in 5 matches (below full threshold 48 balls / 4 matches),31.0,5.0,5.0
+3374,Mark Chapman,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+3383,Kinchit Shah,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+34466,Arafat Minhas,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 29 balls in 3 matches (below full threshold 48 balls / 4 matches),29.0,3.0,3.0
+34522,Brandon McMullen,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 24),8.0,1.0,1.0
+34527,Jasper John Davidson,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+34546,Aryan Bisht,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 24),11.0,1.0,1.0
+3469,Shreyas Gopal,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,3.0,3.0
+34880,Saad Masood,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 24),16.0,2.0,2.0
+3489,Salman Agha,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 5 matches (below full threshold 48 balls / 4 matches),25.0,5.0,5.0
+34969,Manav Suthar,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 24),5.0,1.0,1.0
+35072,Ramakrishna Ghosh,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 24),10.0,1.0,1.0
+35102,Zikria Islam,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+35120,Narayan Saishiv,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 24),3.0,1.0,1.0
+35122,Shah Faisal,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 24),8.0,2.0,2.0
+3543,Shahidullah Kamal,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 24),2.0,1.0,1.0
+3595,Andy McBrine,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 23 balls (< 24),23.0,4.0,4.0
+3613,Shakeel Ahmed,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 24),10.0,3.0,3.0
+3623,Hasan Ali,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 4 matches (below full threshold 48 balls / 4 matches),30.0,4.0,4.0
+3637,Dayyaan Galiem,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 24),8.0,1.0,1.0
+3647,Shreyas Iyer,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 24),8.0,2.0,2.0
+3648,Deepak Hooda,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 24),15.0,3.0,3.0
+36553,Jediah Blades,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 5 matches (below full threshold 48 balls / 4 matches),26.0,5.0,5.0
+3673,Ramesh Mendis,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 22 balls (< 24),22.0,2.0,2.0
+3683,Gavin Main,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 24),18.0,1.0,1.0
+3686,CB Sole,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 40 balls in 4 matches (below full threshold 48 balls / 4 matches),40.0,4.0,4.0
+36984,Raghav Goyal,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 24),1.0,1.0,1.0
+37052,Naman Dhir,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 6 matches (below full threshold 48 balls / 4 matches),26.0,6.0,6.0
+37572,Shafiq Jan,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 27 balls in 2 matches (below full threshold 48 balls / 4 matches),27.0,2.0,2.0
+3771,Vivian Kingma,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 24),17.0,3.0,3.0
+3772,Logan van Beek,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 24),9.0,3.0,3.0
+37731,Musheer Khan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+3775,Sompal Kami,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 24),2.0,1.0,1.0
+3782,M Shahrukh Khan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+37939,Nahid Rana,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 3 matches (below full threshold 48 balls / 4 matches),28.0,3.0,3.0
+3802,Anshuman Rath,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 20 balls (< 24),20.0,2.0,2.0
+38044,Mahli Beardman,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 24),11.0,1.0,1.0
+38050,Isitha Wijesundera,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+3839,Amjad Mahboob,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 24),17.0,2.0,2.0
+3858,Jatinder Singh,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 24),2.0,1.0,1.0
+3871,Aamir Kaleem,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 5 matches (below full threshold 48 balls / 4 matches),35.0,5.0,5.0
+3876,Sufyan Mehmood,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 23 balls (< 24),23.0,2.0,2.0
+3926,Rahul Tewatia,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+39444,Basil Hameed,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+395,Karn Sharma,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 33 balls in 4 matches (below full threshold 48 balls / 4 matches),33.0,4.0,4.0
+39637,Garuka Sanketh,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+3986,Matthew Renshaw,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 24),5.0,1.0,1.0
+3995,Donald Tiripano,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 24),19.0,2.0,2.0
+39991,Parveen Kumar,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 24 balls (< 24),24.0,1.0,1.0
+4106,Daryl Mitchell,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 36 balls in 4 matches (below full threshold 48 balls / 4 matches),36.0,4.0,4.0
+4111,Khushdil Shah,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,2.0,2.0
+4117,Ishan Kishan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 24),1.0,1.0,1.0
+41503,Yash Punja,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 72 balls in 3 matches (below full threshold 48 balls / 4 matches),72.0,3.0,3.0
+4201,Fareed Malik,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 37 balls in 4 matches (below full threshold 48 balls / 4 matches),37.0,4.0,4.0
+4221,Chris Green,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+4276,Basil Thampi,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 24),14.0,2.0,2.0
+4288,Navdeep Saini,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+43917,Krish Bhagat,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 24),7.0,2.0,2.0
+4412,Max ODowd,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 24),17.0,2.0,2.0
+4438,Jasdeep Singh,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 37 balls in 3 matches (below full threshold 48 balls / 4 matches),37.0,3.0,3.0
+4450,Mehran Khan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 24),3.0,1.0,1.0
+4460,Jeffrey Vandersay,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 4 matches (below full threshold 48 balls / 4 matches),30.0,4.0,4.0
+4505,Jhye Richardson,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 24),17.0,2.0,2.0
+45381,PV Satyanarayan Raju,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+45966,Prashant Veer,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 24),8.0,1.0,1.0
+4604,Mitchell Swepson,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+46378,Kyle Klein,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 5 matches (below full threshold 48 balls / 4 matches),28.0,5.0,5.0
+4662,Cole McConchie,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 46 balls in 4 matches (below full threshold 48 balls / 4 matches),46.0,4.0,4.0
+4686,Joshua Clarkson,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 24),7.0,2.0,2.0
+46982,Shahid Aziz,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 24),10.0,2.0,2.0
+470,Mohammad Amir,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 46 balls in 4 matches (below full threshold 48 balls / 4 matches),46.0,4.0,4.0
+47017,Mohammad Jnr,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 24),13.0,2.0,2.0
+4708,Rinku Singh,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+4716,Mayank Dagar,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 24),9.0,2.0,2.0
+47371,Zuhaid Zubair,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+47542,Charles Hinze,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 24),2.0,1.0,1.0
+47694,Omid Rahman,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 24),14.0,3.0,3.0
+47724,Jahandad Khan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 17 balls (< 24),17.0,5.0,5.0
+4780,Mohammad Saif Hassan,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 4 matches (below full threshold 48 balls / 4 matches),30.0,4.0,4.0
+4790,Lutho Sipamla,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 44 balls in 3 matches (below full threshold 48 balls / 4 matches),44.0,3.0,3.0
+4812,Harry Tector,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 30 balls in 4 matches (below full threshold 48 balls / 4 matches),30.0,4.0,4.0
+4821,Mahipal Lomror,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+4826,George Garton,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 24),15.0,1.0,1.0
+48278,Ubaid Shah,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 24),18.0,2.0,2.0
+4838,Keemo Paul,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 40 balls in 4 matches (below full threshold 48 balls / 4 matches),40.0,4.0,4.0
+4853,Glenn Phillips,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 4 matches (below full threshold 48 balls / 4 matches),24.0,4.0,4.0
+48557,Vignesh Puthur,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 27 balls in 3 matches (below full threshold 48 balls / 4 matches),27.0,3.0,3.0
+4857,Nathan Smith,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 24),14.0,2.0,2.0
+48616,Abdul Saqlain,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,2.0,2.0
+4867,Wesley Madhevere,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 3 matches (below full threshold 48 balls / 4 matches),28.0,3.0,3.0
+4876,Milton Shumba,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+4882,Kushal Bhurtel,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 24),3.0,1.0,1.0
+4903,Lahiru Kumara,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 24),4.0,1.0,1.0
+4904,Kamindu Mendis,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 36 balls in 4 matches (below full threshold 48 balls / 4 matches),36.0,4.0,4.0
+494,Kieron Pollard,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 33 balls in 3 matches (below full threshold 48 balls / 4 matches),33.0,3.0,3.0
+4947,Kasun Rajitha,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 24),14.0,2.0,2.0
+4974,Mohammad Nadeem,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,2.0,2.0
+4986,Rovman Powell,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 37 balls in 7 matches (below full threshold 48 balls / 4 matches),37.0,7.0,7.0
+50062,Nqobani Mokoena,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 24),18.0,2.0,2.0
+507,Mohammad Mahmudullah,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 24),14.0,2.0,2.0
+5231,Oshane Thomas,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 24),10.0,1.0,1.0
+5547,Nosthush Kenjige,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 42 balls in 3 matches (below full threshold 48 balls / 4 matches),42.0,3.0,3.0
+5561,Brad Wheal,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 24),19.0,2.0,2.0
+5562,Richard Gleeson,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 46 balls in 4 matches (below full threshold 48 balls / 4 matches),46.0,4.0,4.0
+5665,Sanjay Yadav,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 9 balls (< 24),9.0,1.0,1.0
+56685,Abdullah Ahmadzai,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 36 balls in 3 matches (below full threshold 48 balls / 4 matches),36.0,3.0,3.0
+56817,Shivang Kumar,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 42 balls in 4 matches (below full threshold 48 balls / 4 matches),42.0,4.0,4.0
+56830,Madhav Tiwari,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 48 balls in 3 matches (below full threshold 48 balls / 4 matches),48.0,3.0,3.0
+5808,Karim Janat,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 31 balls in 5 matches (below full threshold 48 balls / 4 matches),31.0,5.0,5.0
+5844,Ebadot Hossain,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 22 balls (< 24),22.0,1.0,1.0
+5866,Patrick Kruger,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 42 balls in 6 matches (below full threshold 48 balls / 4 matches),42.0,6.0,6.0
+5882,Afif Hossain,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+5977,Khary Pierre,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 2 matches (below full threshold 48 balls / 4 matches),28.0,2.0,2.0
+6025,Henry Shipley,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 41 balls in 4 matches (below full threshold 48 balls / 4 matches),41.0,4.0,4.0
+6162,Kulwant Khejroliya,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 31 balls in 3 matches (below full threshold 48 balls / 4 matches),31.0,3.0,3.0
+6166,Jack Edwards,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+6179,Nipun Ransika,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 2 matches (below full threshold 48 balls / 4 matches),26.0,2.0,2.0
+6180,Praveen Jayawickrama,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+6188,Simi Singh,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+6196,Josh Tongue,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 20 balls (< 24),20.0,2.0,2.0
+6237,Manimaran Siddharth,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 31 balls in 2 matches (below full threshold 48 balls / 4 matches),31.0,2.0,2.0
+6285,Kamlesh Nagarkoti,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+6286,Shivam Mavi,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 46 balls in 5 matches (below full threshold 48 balls / 4 matches),46.0,5.0,5.0
+6297,Matthew Parkinson,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 22 balls (< 24),22.0,1.0,1.0
+6359,Raghu Sharma,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 38 balls in 3 matches (below full threshold 48 balls / 4 matches),38.0,3.0,3.0
+6436,Qais Ahmad,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 2 matches (below full threshold 48 balls / 4 matches),25.0,2.0,2.0
+6449,Wafadar Momand,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 24),1.0,1.0,1.0
+6460,Ayush Badoni,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 45 balls in 6 matches (below full threshold 48 balls / 4 matches),45.0,6.0,6.0
+6466,Atharwa Taide,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 24),1.0,1.0,1.0
+6489,Darshan Nalkande,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 4 matches (below full threshold 48 balls / 4 matches),25.0,4.0,4.0
+6503,Zahoor Khan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 10 balls (< 24),10.0,2.0,2.0
+6506,Mohammad Imran Randhawa,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 24),3.0,1.0,1.0
+6566,Matthew John Fisher,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 24),5.0,1.0,1.0
+6574,Alick Athanaze,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+6591,KM Asif,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 33 balls in 2 matches (below full threshold 48 balls / 4 matches),33.0,2.0,2.0
+6651,Towhid Hridoy,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 2 balls (< 24),2.0,1.0,1.0
+6664,Dion Myers,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+6697,Shams Mulani,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 24),19.0,2.0,2.0
+6725,Sherfane Rutherford,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 24),18.0,2.0,2.0
+6784,Hassan Mohammad,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 24),11.0,1.0,1.0
+6795,Terrance Hinds,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 24),7.0,2.0,2.0
+6797,Dominic Drakes,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 41 balls in 4 matches (below full threshold 48 balls / 4 matches),41.0,4.0,4.0
+6819,Yashasvi Jaiswal,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 7 balls (< 24),7.0,2.0,2.0
+6932,Pramod Madushan,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 25 balls in 4 matches (below full threshold 48 balls / 4 matches),25.0,4.0,4.0
+6985,Bas de Leede,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+6995,Saad Zafar,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 24),18.0,2.0,2.0
+7001,Dilon Heyliger,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 24),8.0,1.0,1.0
+7008,Gus Atkinson,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 3 matches (below full threshold 48 balls / 4 matches),35.0,3.0,3.0
+7049,Kamil Mishara,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+7052,Dunith Wellalage,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 46 balls in 6 matches (below full threshold 48 balls / 4 matches),46.0,6.0,6.0
+7059,Nehal Wadhera,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 24),5.0,1.0,1.0
+7060,Arjun Tendulkar,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 24),14.0,3.0,3.0
+7094,Curtis Campher,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 6 matches (below full threshold 48 balls / 4 matches),35.0,6.0,6.0
+7155,Sahan Arachchige,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 20 balls (< 24),20.0,1.0,1.0
+71727,Razaullah Razaullah,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 24),1.0,1.0,1.0
+7201,Haroon Arshad,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 24),13.0,2.0,2.0
+7227,Nijat Masood,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 24),8.0,1.0,1.0
+7241,Ziaur Rahman,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 4 balls (< 24),4.0,1.0,1.0
+7269,Sushant Mishra,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 24 balls (< 24),24.0,1.0,1.0
+7446,Abdul Samad,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 24),3.0,2.0,2.0
+7473,Akash Deep,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 43 balls in 5 matches (below full threshold 48 balls / 4 matches),43.0,5.0,5.0
+7533,Simarjeet Singh,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 40 balls in 4 matches (below full threshold 48 balls / 4 matches),40.0,4.0,4.0
+7544,Venkatesh Iyer,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 24),11.0,2.0,2.0
+7545,Kuldeep Sen,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 40 balls in 6 matches (below full threshold 48 balls / 4 matches),40.0,6.0,6.0
+7625,Suryansh Shedge,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 24),18.0,1.0,1.0
+768,Reeza Hendricks,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 21 balls (< 24),21.0,2.0,2.0
+7692,Qasim Akram,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 2 matches (below full threshold 48 balls / 4 matches),24.0,2.0,2.0
+7704,Pavan Rathnayake,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+7709,Ainsley Ndlovu,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 8 balls (< 24),8.0,3.0,3.0
+773,Shadley Van Schalkwyk,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 43 balls in 3 matches (below full threshold 48 balls / 4 matches),43.0,3.0,3.0
+7755,Harsh Thaker,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 11 balls (< 24),11.0,2.0,2.0
+7756,Kaleem Sana,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 13 balls (< 24),13.0,2.0,2.0
+7897,Namboori Tilak Varma,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 26 balls in 5 matches (below full threshold 48 balls / 4 matches),26.0,5.0,5.0
+7903,Shamim Hossain,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 3 matches (below full threshold 48 balls / 4 matches),28.0,3.0,3.0
+7906,Rakibul Hasan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 19 balls (< 24),19.0,3.0,3.0
+7912,Vikramjit Singh,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 24),3.0,1.0,1.0
+7927,Janak Prakash,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 24),14.0,2.0,2.0
+7928,Vinoth Baskaran,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 2 matches (below full threshold 48 balls / 4 matches),24.0,2.0,2.0
+7929,Aryaman Sunil Uchil,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+7935,Mohammad Ghazanfar,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+7937,Wasim Ali,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 24),15.0,2.0,2.0
+7942,Jay Odedara,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 5 balls (< 24),5.0,1.0,1.0
+8005,Zawar Farid,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,2.0,2.0
+8141,Auqib Nabi,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 52 balls in 3 matches (below full threshold 48 balls / 4 matches),52.0,3.0,3.0
+8182,Donovan Ferreira,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 38 balls in 4 matches (below full threshold 48 balls / 4 matches),38.0,4.0,4.0
+8266,Sumit Kumar 1,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 14 balls (< 24),14.0,2.0,2.0
+8298,Ramon Simmonds,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 16 balls (< 24),16.0,1.0,1.0
+8311,Dan Mousley,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 1 balls (< 24),1.0,1.0,1.0
+8326,Jayden Seales,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 36 balls in 4 matches (below full threshold 48 balls / 4 matches),36.0,4.0,4.0
+8389,Jayden Lennox,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 3 balls (< 24),3.0,1.0,1.0
+8614,William ORourke,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 35 balls in 5 matches (below full threshold 48 balls / 4 matches),35.0,5.0,5.0
+8623,Kristian Clarke,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 18 balls (< 24),18.0,1.0,1.0
+8632,Aaqib Khan,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 28 balls in 2 matches (below full threshold 48 balls / 4 matches),28.0,2.0,2.0
+8634,Ashwani Kumar,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 37 balls in 3 matches (below full threshold 48 balls / 4 matches),37.0,3.0,3.0
+8638,Basil Hameed,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,2.0,2.0
+8639,Kartik Meiyappan,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 6 balls (< 24),6.0,1.0,1.0
+8719,Aryan Lakra,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 24),15.0,1.0,1.0
+8723,Mohammed Faraazuddin,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 2 matches (below full threshold 48 balls / 4 matches),24.0,2.0,2.0
+8727,Sanchit Sharma,bowler,,,,True,True,Provisionally Eligible,False,Provisional sample: 24 balls in 3 matches (below full threshold 48 balls / 4 matches),24.0,3.0,3.0
+8763,Duan Jansen,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 12 balls (< 24),12.0,1.0,1.0
+914,Krishnappa Gowtham,bowler,,,,True,True,Insufficient Evidence,False,Insufficient pressure exposure: 15 balls (< 24),15.0,3.0,3.0

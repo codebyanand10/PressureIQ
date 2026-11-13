@@ -1,0 +1,14 @@
+field_name,data_type,description
+rank,int,Deterministic integer ranking position (1 to N)
+player_id,string,Unique immutable player identifier
+player_name,string,Resolved display name from player registry
+final_fbpr,float,Final Batter Pressure Rating (0 to 100)
+final_fbor,float,Final Bowler Pressure Rating (0 to 100)
+bppi,float,Phase 6 Batting Pressure Performance Index (0 to 100)
+bppi_b,float,Phase 7 Bowling Pressure Performance Index (0 to 100)
+ranking_score,float,Primary sorting score incorporating empirical Bayes shrinkage
+ci_lower,float,95% bootstrap confidence interval lower bound
+ci_upper,float,95% bootstrap confidence interval upper bound
+reliability_level,string,"Statistical evidence tier (High, Medium, Low)"
+ranking_explanation,string,Human-readable narrative explanation of ranking
+key_strengths,string,Semicolon-separated evidence-based performance strengths

@@ -34,30 +34,73 @@ def render_ranking_bar_chart(
     ci_upp_col = "ci_upper_fbpr" if is_batting else "ci_upper_fbor"
     title_text = "Top Batters by Final Pressure Rating (FBPR)" if is_batting else "Top Bowlers by Final Pressure Rating (FBOR)"
 
+    if df.empty or rating_col not in df.columns:
+        fig = go.Figure()
+        fig.add_annotation(
+            text="No players match the current filter criteria",
+            xref="paper",
+            yref="paper",
+            x=0.5,
+            y=0.5,
+            showarrow=False,
+            font=dict(size=14, color="#9CA3AF"),
+        )
+        fig.update_layout(PLOTLY_LAYOUT_DEFAULTS)
+        return fig
+
     subset = df.head(top_n).copy()
+    if subset.empty:
+        fig = go.Figure()
+        fig.add_annotation(
+            text="No players match the current filter criteria",
+            xref="paper",
+            yref="paper",
+            x=0.5,
+            y=0.5,
+            showarrow=False,
+            font=dict(size=14, color="#9CA3AF"),
+        )
+        fig.update_layout(PLOTLY_LAYOUT_DEFAULTS)
+        return fig
+
     # Reverse order so #1 is at top of vertical axis
     subset = subset.iloc[::-1]
 
-    # Calculate asymmetric error bars
-    error_plus = subset[ci_upp_col] - subset[rating_col]
-    error_minus = subset[rating_col] - subset[ci_low_col]
+    # Calculate asymmetric error bars safely
+    if ci_upp_col in subset.columns and ci_low_col in subset.columns:
+        error_plus = subset[ci_upp_col] - subset[rating_col]
+        error_minus = subset[rating_col] - subset[ci_low_col]
+        error_dict = dict(
+            type="data",
+            symmetric=False,
+            array=error_plus,
+            arrayminus=error_minus,
+            color="#E2E8F0",
+            thickness=1.5,
+            width=4,
+        )
+    else:
+        error_dict = None
 
     fig = go.Figure()
 
-    fig.add_trace(
-        go.Bar(
-            y=subset["player_name"],
-            x=subset[rating_col],
-            orientation="h",
-            error_x=dict(
-                type="data",
-                symmetric=False,
-                array=error_plus,
-                arrayminus=error_minus,
-                color="#E2E8F0",
-                thickness=1.5,
-                width=4,
-            ),
+    bar_kwargs = dict(
+        y=subset["player_name"],
+        x=subset[rating_col],
+        orientation="h",
+        text=subset[rating_col].apply(lambda x: f"{x:.2f}"),
+        textposition="outside",
+        marker=dict(
+            color=subset[rating_col],
+            colorscale="Viridis",
+            line=dict(color="#00FFCC" if is_batting else "#38BDF8", width=1),
+        ),
+        hovertemplate="<b>%{y}</b><br>Rating: %{x:.2f}<extra></extra>",
+    )
+    if error_dict:
+        bar_kwargs["error_x"] = error_dict
+
+    fig.add_trace(go.Bar(**bar_kwargs))
             marker=dict(
                 color=subset[rating_col],
                 colorscale="Viridis" if is_batting else "Plasma",
