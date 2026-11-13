@@ -1,0 +1,4 @@
+scenario,bat_min_balls,bat_min_matches,bat_eligible_count,bat_excluded_count,bat_top10_overlap,bat_players_entering_count,bat_players_leaving_count,bowl_min_balls,bowl_min_matches,bowl_eligible_count,bowl_excluded_count,bowl_top10_overlap,bowl_players_entering_count,bowl_players_leaving_count
+lower,20,2,302,365,10,0,0,24,2,348,211,10,0,0
+primary,40,4,170,497,10,0,0,48,4,232,327,10,0,0
+higher,60,6,111,556,9,1,1,72,6,186,373,9,1,1

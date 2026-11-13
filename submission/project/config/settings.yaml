@@ -1,0 +1,291 @@
+# ==============================================================================
+# PressureIQ - Central Project Configuration
+# SupeRR Selector Season 2 - Round 1
+# Phase 0: Development Environment & Foundation Settings
+# ==============================================================================
+
+project:
+  name: "PressureIQ"
+  title: "AI-Powered Cricket Pressure Performance Analytics and Player Ranking System"
+  competition: "SupeRR Selector Season 2 — Round 1"
+  version: "0.1.0"
+  environment: "development"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  intermediate_dir: "data/intermediate"
+  external_dir: "data/external"
+
+outputs:
+  rankings_dir: "outputs/rankings"
+  validation_dir: "outputs/validation"
+  charts_dir: "outputs/charts"
+  reports_dir: "outputs/reports"
+  logs_dir: "outputs/logs"
+  match_state_dir: "outputs/match_state"
+
+match_state:
+  default_t20_overs: 20
+  default_super_over_overs: 1
+  innings_phases:
+    powerplay_end: 0.30
+    middle_overs_end: 0.75
+  validation:
+    max_wickets: 10
+    max_super_over_wickets: 2
+    enforce_non_negative_runs: true
+    enforce_non_negative_balls: true
+  processing:
+    preserve_original_delivery_rows: true
+    calculate_pre_delivery_state: true
+    calculate_post_delivery_state: true
+
+notebooks:
+  dir: "notebooks"
+
+dashboard:
+  title: "PressureIQ"
+  subtitle: "AI-Powered Cricket Pressure Performance Analytics"
+  layout: "wide"
+  initial_sidebar_state: "expanded"
+
+logging:
+  level: "INFO"
+  filename: "pressureiq.log"
+  format: "%(asctime)s | %(levelname)-8s | %(name)s:%(funcName)s:%(lineno)d - %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"
+
+pressure:
+  version: "1.0.0"
+  score_range:
+    minimum: 0.0
+    maximum: 100.0
+
+  classification:
+    very_low_max: 19.99
+    low_max: 39.99
+    moderate_max: 59.99
+    high_max: 79.99
+    extreme_max: 100.0
+
+  normalization:
+    method: "percentile"
+    minimum_group_size: 100
+    fallback_to_global: true
+
+  indicators:
+    rrr_cap: 36.0
+    benchmark_baseline_crr: 8.0
+    knockout_boost: 1.15
+    death_overs_start_ball: 96
+    powerplay_end_ball: 36
+
+  models:
+    chase:
+      enabled: true
+      weights:
+        urgency: 0.35
+        wicket_vulnerability: 0.30
+        time_scarcity: 0.20
+        match_context: 0.15
+    first_innings:
+      enabled: true
+      weights:
+        scoring_pace: 0.30
+        wicket_vulnerability: 0.35
+        phase_pressure: 0.20
+        match_context: 0.15
+    batting:
+      enabled: true
+    bowling:
+      enabled: true
+      chase_weights:
+        defense_risk: 0.50
+        time_margin: 0.30
+        match_context: 0.20
+      first_inn_weights:
+        containment_risk: 0.45
+        wicket_need: 0.35
+        match_context: 0.20
+
+baselines:
+  version: "1.0.0"
+  low_pressure_threshold:
+    batting_max: 39.99
+    bowling_max: 39.99
+
+  batting_positions:
+    top_order: [1, 2, 3]
+    middle_order: [4, 5, 6]
+    lower_order: [7, 8, 9, 10, 11]
+
+  reliability:
+    batting:
+      high_min_balls: 150
+      medium_min_balls: 60
+      low_min_balls: 20
+      min_dismissals_for_avg: 5
+    bowling:
+      high_min_balls: 120
+      medium_min_balls: 48
+      low_min_balls: 18
+      min_wickets_for_avg: 5
+
+  shrinkage:
+    enabled: true
+    method: "empirical_bayes"
+    batting_sr_k: 60.0
+    batting_avg_k: 5.0
+    bowling_econ_k: 120.0
+    bowling_avg_k: 5.0
+
+batting_pressure:
+  version: "1.0.0"
+  categories:
+    very_low_max: 19.99
+    low_max: 39.99
+    moderate_max: 59.99
+    high_max: 79.99
+    extreme_max: 100.0
+
+  high_pressure_threshold: 60.0
+
+  bppi:
+    weights:
+      strike_rate_retention: 0.30
+      batting_average_retention: 0.25
+      boundary_efficiency: 0.20
+      dot_ball_control: 0.15
+      dismissal_management: 0.10
+    retention_cap: 200.0
+    retention_floor: 0.0
+
+  reliability:
+    high_min_balls: 100
+    medium_min_balls: 40
+    low_min_balls: 15
+    min_matches: 5
+    min_innings: 3
+    bootstrap_iterations: 500
+    bootstrap_confidence_level: 0.95
+
+  classification:
+    elite_bppi_min: 75.0
+    strong_bppi_min: 60.0
+    average_bppi_min: 45.0
+    below_baseline_bppi_min: 0.0
+
+bowling_pressure:
+  version: "1.0.0"
+  categories:
+    very_low_max: 19.99
+    low_max: 39.99
+    moderate_max: 59.99
+    high_max: 79.99
+    extreme_max: 100.0
+
+  high_pressure_threshold: 60.0
+
+  bppi_b:
+    weights:
+      economy_retention: 0.30
+      wicket_taking_effectiveness: 0.25
+      dot_ball_generation: 0.20
+      boundary_prevention: 0.15
+      bowling_average_retention: 0.10
+    retention_cap: 200.0
+    retention_floor: 0.0
+
+  reliability:
+    high_min_balls: 120
+    medium_min_balls: 48
+    low_min_balls: 18
+    min_matches: 5
+    min_innings: 3
+    bootstrap_iterations: 500
+    bootstrap_confidence_level: 0.95
+
+  classification:
+    elite_bppi_min: 75.0
+    strong_bppi_min: 60.0
+    average_bppi_min: 45.0
+    below_baseline_bppi_min: 0.0
+
+  roles:
+    powerplay_phase_threshold: 0.40
+    middle_phase_threshold: 0.40
+    death_phase_threshold: 0.40
+    min_balls_for_role: 36
+
+rankings:
+  version: "1.0.0"
+  top_n: 10
+  batting_eligibility:
+    min_balls_faced: 40           # Full eligibility threshold (Medium+ reliability, 170 batters)
+    min_matches: 4                # Multi-match evidence
+    min_innings: 3                # Distinct innings
+    provisional_min_balls: 20     # Provisional eligibility threshold (308 batters)
+    provisional_min_matches: 2
+    require_baseline: true
+  bowling_eligibility:
+    min_legal_balls: 48           # Full eligibility threshold (8+ overs, Medium+ reliability, 232 bowlers)
+    min_matches: 4                # Multi-match evidence
+    min_innings: 3                # Distinct innings
+    provisional_min_balls: 24     # Provisional eligibility threshold (354 bowlers)
+    provisional_min_matches: 2
+    require_baseline: true
+  weights:
+    primary:
+      quality_and_resilience: 0.50   # Core BPPI / BPPI-B (includes baseline retention)
+      absolute_performance: 0.20     # Absolute high-pressure execution
+      consistency: 0.15              # Innings-level scoring/economy stability
+      pressure_context: 0.15         # Extreme pressure exposure & difficulty
+    balanced:
+      quality_and_resilience: 0.40
+      absolute_performance: 0.30
+      consistency: 0.15
+      pressure_context: 0.15
+    baseline_focused:
+      quality_and_resilience: 0.60
+      absolute_performance: 0.15
+      consistency: 0.15
+      pressure_context: 0.10
+    absolute_focused:
+      quality_and_resilience: 0.30
+      absolute_performance: 0.45
+      consistency: 0.15
+      pressure_context: 0.10
+  reliability:
+    uncertainty_method: "empirical_bayes_shrinkage"
+    shrinkage_prior_weight_batting: 25.0
+    shrinkage_prior_weight_bowling: 30.0
+    confidence_level: 0.95
+
+validation:
+  version: "1.0.0"
+  random_seed: 42
+  bootstrap_iterations: 100
+  quick_bootstrap_iterations: 10
+  confidence_levels: [0.90, 0.95]
+  leave_one_match_out: true
+  top_n: 10
+  leakage_audit_checks:
+    - delivery_outcome_in_pressure
+    - future_deliveries_in_pressure
+    - innings_final_score_in_first_inn
+    - match_result_in_ratings
+    - future_season_data_in_baselines
+    - post_match_info_in_features
+    - dls_revised_target_handling
+    - duplicate_records
+    - player_attribution
+    - bowler_wicket_attribution
+    - legal_delivery_counts
+    - extras_conceded_accounting
+
+
+
+
+
+

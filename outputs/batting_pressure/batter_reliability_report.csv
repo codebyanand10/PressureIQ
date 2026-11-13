@@ -1,0 +1,5 @@
+reliability_level,player_count,avg_balls_faced,avg_matches,avg_ci_width_sr,reliable_count
+High,57,153.98,19.32,62.41,57
+Insufficient Data,321,7.23,1.77,129.03,0
+Low,169,24.95,4.5,112.55,0
+Medium,120,63.22,9.65,88.33,120

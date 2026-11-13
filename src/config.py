@@ -47,6 +47,13 @@ class Config:
         self.output_settings: Dict[str, Any] = self.raw_settings.get("outputs", {})
         self.dashboard_settings: Dict[str, Any] = self.raw_settings.get("dashboard", {})
         self.logging_settings: Dict[str, Any] = self.raw_settings.get("logging", {})
+        self.match_state_settings: Dict[str, Any] = self.raw_settings.get("match_state", {})
+        self.pressure_settings: Dict[str, Any] = self.raw_settings.get("pressure", {})
+        self.baseline_settings: Dict[str, Any] = self.raw_settings.get("baselines", {})
+        self.batting_pressure_settings: Dict[str, Any] = self.raw_settings.get("batting_pressure", {})
+        self.bowling_pressure_settings: Dict[str, Any] = self.raw_settings.get("bowling_pressure", {})
+        self.ranking_settings: Dict[str, Any] = self.raw_settings.get("rankings", {})
+        self.validation_settings: Dict[str, Any] = self.raw_settings.get("validation", {})
 
         # Resolve core project directories
         self.data_raw_dir: Path = self.project_root / self.data_settings.get("raw_dir", "data/raw")
@@ -72,6 +79,23 @@ class Config:
         self.logs_dir: Path = self.project_root / self.output_settings.get(
             "logs_dir", "outputs/logs"
         )
+        self.match_state_dir: Path = self.project_root / self.output_settings.get(
+            "match_state_dir", "outputs/match_state"
+        )
+        self.pressure_dir: Path = self.project_root / "outputs" / "pressure"
+        self.pressure_data_dir: Path = self.data_processed_dir / "pressure"
+        self.baselines_dir: Path = self.project_root / "outputs" / "baselines"
+        self.baselines_data_dir: Path = self.data_processed_dir / "baselines"
+        self.batting_pressure_dir: Path = self.project_root / "outputs" / "batting_pressure"
+        self.batting_pressure_data_dir: Path = self.data_processed_dir / "batting_pressure"
+        self.bowling_pressure_dir: Path = self.project_root / "outputs" / "bowling_pressure"
+        self.bowling_pressure_data_dir: Path = self.data_processed_dir / "bowling_pressure"
+        self.rankings_data_dir: Path = self.data_processed_dir / "rankings"
+        self.validation_dir: Path = self.project_root / self.output_settings.get(
+            "validation_dir", "outputs/validation"
+        )
+        self.validation_data_dir: Path = self.data_processed_dir / "validation"
+        self.validation_charts_dir: Path = self.validation_dir / "charts"
 
         self.notebooks_dir: Path = self.project_root / "notebooks"
         self.dashboard_dir: Path = self.project_root / "dashboard"

@@ -1,0 +1,17 @@
+context_type,context_value,player_count,total_legal_balls,total_runs,total_wickets,mean_economy,mean_dot_pct
+bowling_style,Pace,355,76845,118384,4046,9.8,34.45
+bowling_style,Spin,272,48308,65209,2082,8.74,32.45
+competition_type,T20,340,57963,87989,2749,9.86,32.11
+competition_type,T20I,463,67190,95604,3379,9.06,34.53
+innings_number,1st_innings,559,93201,138975,4708,9.19,33.34
+innings_number,2nd_innings,515,31920,44566,1409,9.39,34.15
+innings_number,other,11,32,52,11,11.74,44.24
+innings_phase,DEATH_OVERS,490,25798,45770,1861,10.98,26.79
+innings_phase,MIDDLE_OVERS,578,56282,77964,2447,8.84,29.89
+innings_phase,POWERPLAY,529,43041,59807,1809,8.77,41.05
+innings_phase,SUPER_OVER,11,32,52,11,11.74,44.24
+match_stage,knockout,157,5843,8245,306,8.83,33.03
+match_stage,non_knockout,623,119310,175348,5822,9.31,33.72
+pressure_intensity,extreme,267,2764,4636,135,9.47,41.58
+pressure_intensity,high,557,44924,71461,2250,10.08,31.52
+pressure_intensity,moderate,595,77465,107496,3743,8.91,34.95

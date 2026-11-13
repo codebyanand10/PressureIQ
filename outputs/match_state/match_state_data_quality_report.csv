@@ -1,0 +1,11 @@
+metric,value,status
+Total Deliveries Processed,200999,VERIFIED
+Total Matches Reconstructed,867,VERIFIED
+Total Innings Reconstructed,1724,VERIFIED
+Legal Deliveries Ratio,95.74%,VERIFIED
+Deliveries with 100% Valid State,100.0%,VERIFIED
+Negative Runs Detected,0,PASSED
+Negative Wickets Detected,0,PASSED
+Non-Monotonic Runs Detected,0,PASSED
+Non-Monotonic Wickets Detected,0,PASSED
+Chasing Deliveries with Valid Target,100.0%,VERIFIED

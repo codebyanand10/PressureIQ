@@ -1,0 +1,19 @@
+role,rank_pair,player_a,player_b,rating_a,rating_b,rating_difference,ci_overlap,ci_overlap_ratio,prob_a_superior,tier_classification,statistical_verdict
+batter,#1 vs #2,Rinku Singh,Matthew Wade,77.07,68.77,8.3,True,0.42,0.97,Weakly Distinct,"Rinku Singh has stronger observed clutch rating, but moderate statistical uncertainty overlap exists."
+batter,#2 vs #3,Matthew Wade,David Miller,68.77,67.14,1.63,True,0.65,0.623,Same Statistical Tier,Matthew Wade and David Miller are statistically indistinguishable within uncertainty bounds.
+batter,#3 vs #4,David Miller,Namboori Tilak Varma,67.14,65.39,1.75,True,0.94,0.629,Same Statistical Tier,David Miller and Namboori Tilak Varma are statistically indistinguishable within uncertainty bounds.
+batter,#4 vs #5,Namboori Tilak Varma,Tim David,65.39,65.3,0.09,True,0.48,0.508,Same Statistical Tier,Namboori Tilak Varma and Tim David are statistically indistinguishable within uncertainty bounds.
+batter,#5 vs #6,Tim David,Jason Holder,65.3,65.26,0.04,True,0.62,0.503,Same Statistical Tier,Tim David and Jason Holder are statistically indistinguishable within uncertainty bounds.
+batter,#6 vs #7,Jason Holder,Mahendra Singh Dhoni,65.26,64.67,0.59,True,0.74,0.539,Same Statistical Tier,Jason Holder and Mahendra Singh Dhoni are statistically indistinguishable within uncertainty bounds.
+batter,#7 vs #8,Mahendra Singh Dhoni,Towhid Hridoy,64.67,64.44,0.23,True,0.79,0.519,Same Statistical Tier,Mahendra Singh Dhoni and Towhid Hridoy are statistically indistinguishable within uncertainty bounds.
+batter,#8 vs #9,Towhid Hridoy,Rovman Powell,64.44,63.59,0.85,True,0.58,0.569,Same Statistical Tier,Towhid Hridoy and Rovman Powell are statistically indistinguishable within uncertainty bounds.
+batter,#9 vs #10,Rovman Powell,Akeal Hosein,63.59,63.38,0.21,True,0.86,0.516,Same Statistical Tier,Rovman Powell and Akeal Hosein are statistically indistinguishable within uncertainty bounds.
+bowler,#1 vs #2,Joshua Little,Roston Chase,50.05,49.64,0.41,True,0.87,0.53,Same Statistical Tier,Joshua Little and Roston Chase are statistically indistinguishable within uncertainty bounds.
+bowler,#2 vs #3,Roston Chase,Ayush Shukla,49.64,48.87,0.77,True,0.69,0.542,Same Statistical Tier,Roston Chase and Ayush Shukla are statistically indistinguishable within uncertainty bounds.
+bowler,#3 vs #4,Ayush Shukla,Nasum Ahmed,48.87,48.71,0.16,True,0.76,0.508,Same Statistical Tier,Ayush Shukla and Nasum Ahmed are statistically indistinguishable within uncertainty bounds.
+bowler,#4 vs #5,Nasum Ahmed,Tanzim Sakib,48.71,48.53,0.18,True,0.7,0.513,Same Statistical Tier,Nasum Ahmed and Tanzim Sakib are statistically indistinguishable within uncertainty bounds.
+bowler,#5 vs #6,Tanzim Sakib,Haris Rauf,48.53,47.65,0.88,True,0.68,0.569,Same Statistical Tier,Tanzim Sakib and Haris Rauf are statistically indistinguishable within uncertainty bounds.
+bowler,#6 vs #7,Haris Rauf,Mohammed Siraj,47.65,47.12,0.53,True,0.87,0.549,Same Statistical Tier,Haris Rauf and Mohammed Siraj are statistically indistinguishable within uncertainty bounds.
+bowler,#7 vs #8,Mohammed Siraj,Adil Rashid,47.12,47.08,0.04,True,0.83,0.504,Same Statistical Tier,Mohammed Siraj and Adil Rashid are statistically indistinguishable within uncertainty bounds.
+bowler,#8 vs #9,Adil Rashid,Sikandar Raza,47.08,46.93,0.15,True,0.78,0.513,Same Statistical Tier,Adil Rashid and Sikandar Raza are statistically indistinguishable within uncertainty bounds.
+bowler,#9 vs #10,Sikandar Raza,Mahedi Hasan,46.93,46.77,0.16,True,0.95,0.512,Same Statistical Tier,Sikandar Raza and Mahedi Hasan are statistically indistinguishable within uncertainty bounds.

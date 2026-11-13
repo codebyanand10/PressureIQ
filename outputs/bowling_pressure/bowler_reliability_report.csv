@@ -1,0 +1,5 @@
+reliability_level,player_count,avg_legal_balls,avg_matches,avg_ci_width_econ,reliable_count
+High,127,259.13,24.65,3.17,127
+Insufficient Data,183,9.55,1.39,7.24,0
+Low,139,31.01,3.59,7.05,0
+Medium,110,79.27,8.0,5.1,110

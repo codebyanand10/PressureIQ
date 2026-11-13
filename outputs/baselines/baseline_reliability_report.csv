@@ -1,0 +1,9 @@
+role,reliability_level,player_count,avg_sample_volume,avg_reliability_score
+batter,High,248,671.01,100.0
+batter,Insufficient Data,245,8.15,9.77
+batter,Low,228,36.14,32.94
+batter,Medium,167,99.63,72.81
+bowler,High,292,598.51,100.0
+bowler,Insufficient Data,68,8.59,7.0
+bowler,Low,120,28.92,23.9
+bowler,Medium,167,81.59,67.76

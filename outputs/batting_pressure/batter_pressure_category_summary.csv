@@ -1,0 +1,6 @@
+pressure_category,player_count,total_deliveries,total_runs,mean_strike_rate,median_strike_rate,mean_boundary_pct,mean_dot_ball_pct
+extreme,428,4770,6172,116.02,100.0,41.25,44.59
+high,624,18132,24538,113.81,114.29,42.56,40.9
+low,504,97410,135905,119.28,123.11,53.02,40.94
+moderate,654,53417,73847,116.45,120.45,44.35,38.62
+very_low,278,19556,29088,108.77,118.69,49.65,48.4

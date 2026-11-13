@@ -1,0 +1,8 @@
+scenario,weights_resilience,weights_absolute,weights_consistency,weights_context,batting_spearman,batting_kendall,batting_top10_overlap,batting_jaccard,bowling_spearman,bowling_kendall,bowling_top10_overlap,bowling_jaccard
+primary,0.5,0.2,0.15,0.15,1.0,0.9996,10,1.0,1.0,0.9993,10,1.0
+balanced,0.4,0.3,0.15,0.15,0.9741,0.8706,9,0.8182,0.9899,0.9183,9,0.8182
+absolute_focused,0.3,0.45,0.15,0.1,0.8859,0.7097,7,0.5385,0.9534,0.8183,8,0.6667
+baseline_focused,0.6,0.15,0.15,0.1,0.9863,0.9028,8,0.6667,0.9915,0.926,10,1.0
+consistency_focused,0.35,0.2,0.35,0.1,0.8846,0.7123,9,0.8182,0.9217,0.7596,7,0.5385
+reliability_focused,0.4,0.2,0.2,0.2,0.9594,0.8357,9,0.8182,0.9771,0.8747,9,0.8182
+pressure_difficulty_focused,0.35,0.2,0.15,0.3,0.9024,0.7432,9,0.8182,0.9517,0.8168,9,0.8182

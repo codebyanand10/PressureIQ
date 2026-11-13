@@ -1,0 +1,13 @@
+check_name,status
+runs_non_negative,PASSED
+legal_balls_non_negative,PASSED
+wickets_non_negative,PASSED
+economy_formula_consistent,PASSED
+bowling_average_formula_consistent,PASSED
+zero_wickets_average_is_null,PASSED
+bppi_b_within_bounds,PASSED
+component_scores_within_bounds,PASSED
+hp_no_duplicate_players,PASSED
+bppi_no_duplicate_players,PASSED
+classifications_valid,PASSED
+situational_runs_non_negative,PASSED

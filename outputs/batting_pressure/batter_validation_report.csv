@@ -1,0 +1,13 @@
+check_name,status
+runs_non_negative,PASSED
+balls_non_negative,PASSED
+dismissals_non_negative,PASSED
+strike_rate_formula_consistent,PASSED
+batting_average_formula_consistent,PASSED
+zero_dismissals_average_is_null,PASSED
+bppi_within_bounds,PASSED
+component_scores_within_bounds,PASSED
+hp_no_duplicate_players,PASSED
+bppi_no_duplicate_players,PASSED
+classifications_valid,PASSED
+situational_runs_non_negative,PASSED

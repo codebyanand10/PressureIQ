@@ -1,0 +1,5 @@
+weight_model,mean_bppi_b,std_bppi_b,correlation_with_base
+"Base (30% Econ, 25% Wkt, 20% Dot, 15% Bnd, 10% Avg)",41.33,12.29,1.0
+"Economy Heavy (50% Econ, 20% Wkt, 15% Dot, 10% Bnd, 5% Avg)",43.99,11.73,0.9774
+"Wickets Heavy (20% Econ, 45% Wkt, 15% Dot, 10% Bnd, 10% Avg)",43.71,13.79,0.9526
+Equal Weights (20% each),38.23,13.08,0.9901

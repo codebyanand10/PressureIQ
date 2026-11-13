@@ -1,0 +1,4 @@
+model_variant,mean_batting_pressure,mean_bowling_pressure,extreme_batting_pct,interpretability
+Standard Config (Calibrated),38.72,47.11,2.51,High (Transparent Domain Weights)
+Unweighted Average,47.32,46.15,8.41,Medium (Equalizes disparate dimensions)
+Pure RRR-Only Model,53.8,44.2,14.25,Low (Ignores wickets in hand)

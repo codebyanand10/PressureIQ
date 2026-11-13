@@ -1,0 +1,78 @@
+dataset_name,field_name,total_rows,missing_count,missing_pct,is_acceptable,is_essential,action_category,rationale
+competitions.csv,comp_id,141,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+competitions.csv,comp_name,141,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+competitions.csv,match_format,141,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+competitions.csv,season,141,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+teams.csv,comp_id,353,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+teams.csv,team_id,353,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+teams.csv,team_name,353,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+competition_team_player_mapping.csv,comp_id,6413,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+competition_team_player_mapping.csv,comp_name,6413,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+competition_team_player_mapping.csv,team_id,6413,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+competition_team_player_mapping.csv,team_name,6413,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+competition_team_player_mapping.csv,player_id,6413,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+competition_team_player_mapping.csv,player_name,6413,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,match_id,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,comp_id,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,match_number,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,match_date,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,stage,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,venue_id,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,venue_country,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,home_team_id,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,home_team,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,away_team_id,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,away_team,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,home_team_captain_id,883,44,4.983,True,False,RETAIN_NULL,Captain ID unrecorded in 44 historical matches; null preserved without fabrication.
+matches.csv,away_team_captain_id,883,45,5.096,True,False,RETAIN_NULL,Captain ID unrecorded in 45 historical matches; null preserved without fabrication.
+matches.csv,toss_win_team_id,883,15,1.699,True,False,RETAIN_NULL,Toss was not held in 15 abandoned matches without play.
+matches.csv,toss_opted,883,15,1.699,True,False,RETAIN_NULL,Toss decision was not made in 15 abandoned matches.
+matches.csv,man_of_the_match,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,first_inn_revised_overs,883,858,97.169,True,False,RETAIN_NULL,Applicable only to rain-affected DLS matches (25 matches).
+matches.csv,second_inn_revised_overs,883,858,97.169,True,False,RETAIN_NULL,Applicable only to rain-affected DLS matches (25 matches).
+matches.csv,revised_target,883,860,97.395,True,False,RETAIN_NULL,Target revision occurs only under DLS rain interruptions (23 matches).
+matches.csv,knock_out,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+matches.csv,win_team_id,883,41,4.643,True,False,RETAIN_NULL,"Winner null for 41 matches (ties, no results, abandoned)."
+matches.csv,result,883,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+playing_eleven.csv,match_id,28381,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+playing_eleven.csv,team_id,28381,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+playing_eleven.csv,player_id,28381,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+playing_eleven.csv,batting_order,28381,8678,30.577,True,False,RETAIN_NULL,"Batting order unassigned for 8,667 bench reserves who did not take the field."
+playing_eleven.csv,is_played,28381,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+playing_eleven.csv,is_captain,28381,8667,30.538,True,False,RETAIN_NULL,Captaincy flag unassigned for non-playing bench reserves.
+playing_eleven.csv,is_wk,28381,8667,30.538,True,False,RETAIN_NULL,Wicketkeeper flag unassigned for non-playing bench reserves.
+playing_eleven.csv,is_impact,28381,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+playing_eleven.csv,is_impact_off,28381,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,match_id,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,innings,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,overid,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,over_ball_num,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,innings_ball_num,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,batting_team_id,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,bowling_team_id,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,striker_id,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,striker_name,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,non_striker_id,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,non_striker_name,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,bowler_id,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,bowler_name,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,batting_type,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,bowling_type,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,batting_order,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,runs,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,is_four,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,is_six,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,is_wicket,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,dismissal_type_id,200999,190118,94.587,True,False,RETAIN_NULL,"Populated only when a dismissal occurs (10,881 wickets)."
+ball_by_ball.csv,dismissal_type,200999,190118,94.587,True,False,RETAIN_NULL,"Populated only when a dismissal occurs (10,881 wickets)."
+ball_by_ball.csv,dismissed_player_id,200999,190107,94.581,True,False,RETAIN_NULL,"Populated only on dismissals (10,881 wickets; 1 uncredited retire-out preserved as null)."
+ball_by_ball.csv,extras_type,200999,189167,94.113,True,False,RETAIN_NULL,"Null on standard legal deliveries without extras conceded (189,167 balls)."
+ball_by_ball.csv,extras1_runs,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,extras_2_runs,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,pace_or_spin,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,bowl_speed,200999,0,0.0,True,False,RETAIN_NULL,"Speed radar absent or inactive across smaller tournament venues (77,861 zeros recoded to NaN)."
+ball_by_ball.csv,stroke,200999,6158,3.064,True,False,RETAIN_NULL,"Shot classification unrecorded on 6,158 deliveries (e.g. leaves, wides)."
+ball_by_ball.csv,delivery_style,200999,391,0.195,True,False,RETAIN_NULL,Ball movement unclassified on 391 deliveries.
+ball_by_ball.csv,over_or_around,200999,407,0.202,True,False,RETAIN_NULL,Delivery angle unrecorded on 407 deliveries.
+ball_by_ball.csv,on_or_off,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.
+ball_by_ball.csv,delivery_ist_time,200999,0,0.0,False,True,NOT_APPLICABLE,Field is 100% complete with zero nulls.

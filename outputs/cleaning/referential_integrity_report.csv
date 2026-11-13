@@ -1,0 +1,7 @@
+relationship,source_entity,target_entity,total_foreign_keys,unmatched_foreign_keys,integrity_pct,status,notes
+teams.csv (comp_id) -> competitions.csv (comp_id),teams,competitions,353,0,100.0,PASSED,Every team record correctly references a valid competition.
+mapping.csv (comp_id) -> competitions.csv (comp_id),mapping,competitions,6413,0,100.0,PASSED,Every player registration mapping references a valid competition.
+matches.csv (comp_id) -> competitions.csv (comp_id),matches,competitions,883,0,100.0,PASSED,Every match record references a valid competition.
+matches.csv (comp_id + home/away_team_id) -> teams.csv (comp_id + team_id),matches,teams,1766,0,100.0,PASSED,All home and away match teams are validly registered in teams.csv.
+playing_eleven.csv (match_id) -> matches.csv (match_id),playing_eleven,matches,28341,0,100.0,PASSED,Every playing XI lineup record maps to an active match in matches.csv.
+ball_by_ball.csv (match_id) -> matches.csv (match_id),ball_by_ball,matches,200999,0,100.0,PASSED,Every delivery event maps to a valid match in matches.csv.

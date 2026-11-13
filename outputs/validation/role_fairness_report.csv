@@ -1,0 +1,5 @@
+batting_role,player_count,top10_count,mean_fbpr,mean_balls_faced,mean_strike_rate,top10_share,cohort_share,role,bowling_role,mean_fbor,mean_legal_balls,mean_economy
+Lower Order / Finisher (6+),146,8,53.18027397260274,96.75342465753425,133.05334400902362,0.8,0.859,batter,,,,
+Middle Order (4-5),21,2,53.230952380952374,84.66666666666667,160.15793700626804,0.2,0.124,batter,,,,
+Top Order (1-3),3,0,53.723333333333336,49.0,171.85346780154018,0.0,0.018,batter,,,,
+,232,10,,,,1.0,1.0,bowler,Multi-Phase Bowler,38.510258620689655,178.18965517241378,9.63840449889281

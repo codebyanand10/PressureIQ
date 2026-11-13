@@ -1,9 +1,44 @@
 """PressureIQ - batting_engine.py
 
-Batting pressure performance evaluation and metric calculation (Planned for Phase 6).
+Top-level module exposing the Batting Performance Under Pressure Engine.
+Evaluates individual batter performance across granular pressure categories,
+benchmarks against historical baselines, and calculates the Batting Pressure Performance Index (BPPI).
+
+TODO (Phase 7+): Integrate batting pressure ratings into overall player rankings and dashboard.
 """
 
-# TODO (Phase 0 -> Planned Phase Implementation):
-# This module is part of future project phases.
-# Per Phase 0 specifications, analytical implementation, calculations,
-# and fabricated functionality are strictly deferred to subsequent phases.
+from __future__ import annotations
+
+from src.batting_pressure.batting_pressure_config import BattingPressureConfig
+from src.batting_pressure.batting_pressure_metrics import (
+    annotate_batting_deliveries,
+    compute_batting_pressure_metrics,
+)
+from src.batting_pressure.pressure_category_aggregator import (
+    assign_pressure_category,
+    aggregate_by_pressure_category,
+)
+from src.batting_pressure.baseline_comparator import compare_with_baselines
+from src.batting_pressure.situational_analyzer import analyze_situational_batting
+from src.batting_pressure.bppi_calculator import calculate_bppi
+from src.batting_pressure.batting_reliability import assess_batting_reliability
+from src.batting_pressure.batter_classifier import classify_batters
+from src.batting_pressure.explanation_generator import generate_batter_explanations
+from src.batting_pressure.statistical_validation import validate_batting_pressure_datasets
+from src.batting_pressure.batting_pressure_engine import calculate_batting_pressure_performance
+
+__all__ = [
+    "BattingPressureConfig",
+    "annotate_batting_deliveries",
+    "compute_batting_pressure_metrics",
+    "assign_pressure_category",
+    "aggregate_by_pressure_category",
+    "compare_with_baselines",
+    "analyze_situational_batting",
+    "calculate_bppi",
+    "assess_batting_reliability",
+    "classify_batters",
+    "generate_batter_explanations",
+    "validate_batting_pressure_datasets",
+    "calculate_batting_pressure_performance",
+]

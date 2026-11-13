@@ -1,0 +1,13 @@
+check_id,test_performed,data_fields_examined,result,severity,evidence,required_action
+CHK_01,Delivery Outcome vs Pre-Delivery State,"runs_before, runs_after, wickets_before, wickets_after",PASS,CRITICAL,Found 0 pre-delivery temporal sequence violations out of 100k+ deliveries.,None
+CHK_02,Future Delivery Temporal Isolation,"delivery_order_idx, innings, match_id",PASS,CRITICAL,Found 0 non-monotonic delivery ordering sequences.,None
+CHK_03,First Innings Final Score Isolation,"innings, is_chasing_innings, target_score",PASS,CRITICAL,Found 0 instances of first innings deliveries flagged as chasing.,None
+CHK_04,Match Result Independence in Player Ratings,"FBPR, FBOR, win_team_id, result",PASS,HIGH,FBPR and FBOR are strictly computed from ball-by-ball execution and baseline retention. Match winning outcome is 0% weighted.,None
+CHK_05,Temporal Baseline Separation,"season, match_date, player_baseline",PASS,HIGH,Baselines are constructed from 2022+ historical distributions without future predictive lookahead.,None
+CHK_06,Pre-Delivery Pressure Score Integrity,"batting_pressure_score, bowling_pressure_score",PASS,HIGH,Found 0 deliveries with uncalculated pre-delivery pressure scores.,None
+CHK_07,DLS and Revised Target Bound Validation,"revised_target, first_inn_revised_overs, second_inn_revised_overs",PASS,HIGH,Found 0 implausible DLS revised targets in match metadata.,None
+CHK_08,Duplicate Delivery Record Detection,"match_id, innings, overid, over_ball_num",PASS,CRITICAL,Found 0 duplicate delivery keys in reconstructed match state.,None
+CHK_09,Player Attribution Integrity,"striker_id, bowler_id, non_striker_id",PASS,CRITICAL,Found 0 deliveries with missing striker_id or bowler_id.,None
+CHK_10,Bowler Wicket Attribution Rules,"is_wicket, dismissal_type, wickets_credited",PASS,CRITICAL,"Verified across Phase 7 and Phase 8 that run outs, retired hurts, and obstructing field dismissals are strictly excluded from bowler wicket tallies.",None
+CHK_11,Legal Delivery Accounting Validation,"extras_type, is_legal_delivery",PASS,CRITICAL,Found 0 wides or no-balls erroneously marked as legal deliveries.,None
+CHK_12,Non-Negative Runs & Extras Bounds,"batter_runs, extras_runs, delivery_runs",PASS,HIGH,Found 0 negative run values across deliveries.,None

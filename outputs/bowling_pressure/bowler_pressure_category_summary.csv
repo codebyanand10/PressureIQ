@@ -1,0 +1,6 @@
+pressure_category,player_count,total_legal_balls,total_runs_conceded,total_wickets,mean_economy_rate,median_economy_rate,mean_dot_ball_pct,mean_boundary_pct_conceded
+extreme,267,2764,4636,135,9.47,9.04,41.58,54.17
+high,557,44924,71461,2250,10.08,9.6,31.52,60.39
+low,522,56723,80614,3042,8.73,8.61,34.36,54.41
+moderate,595,77465,107496,3743,8.91,8.55,34.95,56.45
+very_low,313,10569,15440,888,9.2,8.82,36.6,53.13

@@ -1,0 +1,12 @@
+constraint_name,violation_count,violation_pct,status,rule_description
+Negative Runs,0,0.0,PASSED,Innings runs must be >= 0
+Negative Wickets,0,0.0,PASSED,Wickets lost must be >= 0
+Excess Wickets (>10 or >2 SO),0,0.0,PASSED,Wickets cannot exceed available batters
+Negative Balls Remaining,0,0.0,PASSED,Balls remaining cannot be negative
+Excess Legal Balls Bowled,0,0.0,PASSED,Legal balls cannot exceed allocated quota
+Runs Decreased Unexpectedly,0,0.0,PASSED,Cumulative runs must be non-decreasing
+Wickets Decreased Unexpectedly,0,0.0,PASSED,Cumulative wickets must be non-decreasing
+Legal Balls Decreased,0,0.0,PASSED,Cumulative legal balls must be non-decreasing
+Batting Team == Bowling Team,0,0.0,PASSED,Participating teams must be distinct
+Missing Target in Chase,0,0.0,PASSED,Second innings chase must have target
+Negative Run Rate,0,0.0,PASSED,Run rates cannot be negative

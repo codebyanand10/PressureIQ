@@ -1,0 +1,146 @@
+{
+  "manifest_version": "1.0.0",
+  "project": "PressureIQ",
+  "phase": "Phase 2: Data Cleaning, Transformation, Integration and Validation",
+  "generated_timestamp": "2026-11-11T23:43:49.806458",
+  "environment": {
+    "python_version": "3.14.0",
+    "pandas_version": "3.0.1",
+    "duckdb_version": "2.0.0",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "source_data_preservation": {
+    "policy": "STRICT_RAW_PRESERVATION",
+    "source_directory": "data/raw",
+    "files": {
+      "competitions.csv": {
+        "key": "competitions",
+        "path": "C:\\Users\\anand\\Desktop\\rr-hackathon\\PressureIQ\\data\\raw\\competitions.csv",
+        "size_bytes": 7624,
+        "size_mb": 0.0073,
+        "sha256": "507CEB7189F972D4E4F299DDCFC97F3C3247AF1913F6291106F161FA8353FD9B"
+      },
+      "teams.csv": {
+        "key": "teams",
+        "path": "C:\\Users\\anand\\Desktop\\rr-hackathon\\PressureIQ\\data\\raw\\teams.csv",
+        "size_bytes": 6922,
+        "size_mb": 0.0066,
+        "sha256": "A65E5922A9B3BF49247B24FC9471782E700EFB31F8DCC5042923238B87C50A5D"
+      },
+      "competition_team_player_mapping.csv": {
+        "key": "mapping",
+        "path": "C:\\Users\\anand\\Desktop\\rr-hackathon\\PressureIQ\\data\\raw\\competition_team_player_mapping.csv",
+        "size_bytes": 462969,
+        "size_mb": 0.4415,
+        "sha256": "1DED4E42A933618572D6E2C3A521C3257EB1844FAB4456D567D77CBB2D3BBB12"
+      },
+      "matches.csv": {
+        "key": "matches",
+        "path": "C:\\Users\\anand\\Desktop\\rr-hackathon\\PressureIQ\\data\\raw\\matches.csv",
+        "size_bytes": 123864,
+        "size_mb": 0.1181,
+        "sha256": "BB100AB84B8B9A15160C1F2315CF675210131A30E779EC5079FD5403DCF56EEF"
+      },
+      "playing_eleven.csv": {
+        "key": "playing_eleven",
+        "path": "C:\\Users\\anand\\Desktop\\rr-hackathon\\PressureIQ\\data\\raw\\playing_eleven.csv",
+        "size_bytes": 966287,
+        "size_mb": 0.9215,
+        "sha256": "7517C73722A28D5D61C808CCF0CBED315A8780586D02E946EB9A7F5DAF011C27"
+      },
+      "ball_by_ball.csv": {
+        "key": "ball_by_ball",
+        "path": "C:\\Users\\anand\\Desktop\\rr-hackathon\\PressureIQ\\data\\raw\\ball_by_ball.csv",
+        "size_bytes": 41071837,
+        "size_mb": 39.1692,
+        "sha256": "01E2B4379EDFBAB6A6E456D304CB3C70F554CB312EF93D9588F3F32A82CB396E"
+      }
+    }
+  },
+  "processed_artifacts": [
+    {
+      "name": "cleaned_competitions.csv",
+      "format": "CSV",
+      "rows": 141,
+      "cols": 4
+    },
+    {
+      "name": "cleaned_teams.csv",
+      "format": "CSV",
+      "rows": 353,
+      "cols": 3
+    },
+    {
+      "name": "cleaned_competition_team_player_mapping.csv",
+      "format": "CSV",
+      "rows": 6413,
+      "cols": 6
+    },
+    {
+      "name": "cleaned_matches.csv",
+      "format": "CSV",
+      "rows": 883,
+      "cols": 26
+    },
+    {
+      "name": "cleaned_playing_eleven.csv",
+      "format": "CSV",
+      "rows": 28341,
+      "cols": 9
+    },
+    {
+      "name": "cleaned_ball_by_ball.parquet",
+      "format": "Parquet",
+      "rows": 200999,
+      "cols": 35
+    },
+    {
+      "name": "cleaned_ball_by_ball.csv",
+      "format": "CSV",
+      "rows": 200999,
+      "cols": 35
+    },
+    {
+      "name": "competition_classification.csv",
+      "format": "CSV",
+      "rows": 141,
+      "cols": 5
+    },
+    {
+      "name": "match_metadata.parquet",
+      "format": "Parquet",
+      "rows": 883,
+      "cols": 30
+    },
+    {
+      "name": "team_metadata.parquet",
+      "format": "Parquet",
+      "rows": 353,
+      "cols": 7
+    },
+    {
+      "name": "player_registration_metadata.parquet",
+      "format": "Parquet",
+      "rows": 6413,
+      "cols": 7
+    },
+    {
+      "name": "match_participation_metadata.parquet",
+      "format": "Parquet",
+      "rows": 28341,
+      "cols": 19
+    },
+    {
+      "name": "integrated_ball_by_ball.parquet",
+      "format": "Parquet",
+      "rows": 200999,
+      "cols": 54
+    }
+  ],
+  "validation_status": {
+    "source_raw_modified": false,
+    "deduplication_completed": true,
+    "delivery_granularity_preserved": true,
+    "cartesian_fanout_detected": false
+  }
+}

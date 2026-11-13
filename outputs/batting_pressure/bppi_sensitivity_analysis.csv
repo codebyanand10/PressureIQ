@@ -1,0 +1,5 @@
+weight_model,mean_bppi,std_bppi,correlation_with_base
+"Base (30% SR, 25% Avg, 20% Bnd, 15% Dot, 10% Dism)",46.5,13.71,1.0
+"Strike-Rate Heavy (50% SR, 20% Avg, 15% Bnd, 10% Dot, 5% Dism)",47.99,13.5,0.9815
+"Average Heavy (20% SR, 40% Avg, 15% Bnd, 15% Dot, 10% Dism)",44.23,14.86,0.973
+Equal Weights (20% each),46.18,14.03,0.9797

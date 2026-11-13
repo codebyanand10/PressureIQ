@@ -1,0 +1,5 @@
+bowler_classification,player_count,avg_bppi_b,avg_legal_balls,avg_economy,avg_economy_retention
+Average Under Pressure,70,50.74,73.91,8.55,106.14
+Below Baseline Under Pressure,305,36.78,133.5,9.85,92.1
+Insufficient Evidence,183,45.16,9.55,10.89,114.76
+Strong Under Pressure,1,67.05,48.0,7.88,124.06
