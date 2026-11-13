@@ -88,44 +88,41 @@ def render_ranking_bar_chart(
         y=subset["player_name"],
         x=subset[rating_col],
         orientation="h",
-        text=subset[rating_col].apply(lambda x: f"{x:.2f}"),
-        textposition="outside",
+        text=[f"#{int(r)} | {v:.2f}" for r, v in zip(subset.get("rank", range(1, len(subset) + 1)), subset[rating_col])],
+        textposition="auto",
         marker=dict(
             color=subset[rating_col],
-            colorscale="Viridis",
-            line=dict(color="#00FFCC" if is_batting else "#38BDF8", width=1),
+            colorscale="Viridis" if is_batting else "Plasma",
+            showscale=False,
+            line=dict(color="#1E293B", width=1),
         ),
         hovertemplate="<b>%{y}</b><br>Rating: %{x:.2f}<extra></extra>",
     )
     if error_dict:
         bar_kwargs["error_x"] = error_dict
 
-    fig.add_trace(go.Bar(**bar_kwargs))
-            marker=dict(
-                color=subset[rating_col],
-                colorscale="Viridis" if is_batting else "Plasma",
-                showscale=False,
-                line=dict(color="#1E293B", width=1),
-            ),
-            text=[f"#{int(r)} | {v:.2f}" for r, v in zip(subset["rank"], subset[rating_col])],
-            textposition="auto",
-            hovertemplate=(
+    # Attach rich hover data if all components exist
+    if all(c in subset.columns for c in ["rank", ci_low_col, ci_upp_col]):
+        rate_col = "strike_rate" if is_batting else "economy_rate"
+        balls_col = "balls_faced" if is_batting else "legal_balls_bowled"
+        if rate_col in subset.columns and balls_col in subset.columns:
+            bar_kwargs["customdata"] = np.stack((
+                subset["rank"],
+                subset[ci_low_col],
+                subset[ci_upp_col],
+                subset[rate_col],
+                subset[balls_col] if is_batting else (subset[balls_col] / 6.0).round(1),
+            ), axis=-1)
+            bar_kwargs["hovertemplate"] = (
                 "<b>%{y}</b> (Rank #%{customdata[0]})<br>"
                 + f"{'FBPR' if is_batting else 'FBOR'}: %{{x:.2f}}<br>"
                 + "95% CI: [%{customdata[1]:.1f}, %{customdata[2]:.1f}]<br>"
                 + f"{'Strike Rate' if is_batting else 'Economy'}: %{{customdata[3]:.1f}}<br>"
                 + f"{'Balls Faced' if is_batting else 'Overs'}: %{{customdata[4]}}<br>"
                 + "<extra></extra>"
-            ),
-            customdata=np.stack((
-                subset["rank"],
-                subset[ci_low_col],
-                subset[ci_upp_col],
-                subset["strike_rate"] if is_batting else subset["economy_rate"],
-                subset["balls_faced"] if is_batting else (subset["legal_balls_bowled"] / 6).round(1),
-            ), axis=-1),
-        )
-    )
+            )
+
+    fig.add_trace(go.Bar(**bar_kwargs))
 
     layout = dict(PLOTLY_LAYOUT_DEFAULTS)
     layout.update({
