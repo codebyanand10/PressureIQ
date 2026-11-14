@@ -1,28 +1,26 @@
 import React from 'react';
 import {
-  CheckCircle2,
-  AlertTriangle,
   ShieldCheck,
-  FileCheck,
-  Activity,
-  Layers,
-  Lock,
-  RefreshCw
+  Lock
 } from 'lucide-react';
 import { Badge } from '../components/ui/Badge';
 import { PageId } from '../components/layout/Navbar';
-import validationData from '../data/validation.json';
+import validationDataRaw from '../data/validation.json';
+import { ValidationData } from '../types';
 
 interface StatisticalValidationViewProps {
   onNavigate: (page: PageId) => void;
 }
 
 export const StatisticalValidationView: React.FC<StatisticalValidationViewProps> = () => {
-  const scorecard = validationData.scorecard;
-  const leakageChecks = validationData.leakage_audit;
+  const validation = validationDataRaw as unknown as ValidationData;
+  const scorecard = validation.scorecard || [];
+  const leakageChecks = validation.leakage_audit || [];
 
-  const passedScorecard = scorecard.filter((s) => s.status === 'PASS').length;
-  const passedLeakage = leakageChecks.filter((l) => l.status === 'PASS').length;
+  const passedScorecard = scorecard.filter(
+    (s) => s.batting_result === 'PASS' && s.bowling_result === 'PASS'
+  ).length;
+  const passedLeakage = leakageChecks.filter((l) => l.result === 'PASS').length;
 
   return (
     <div className="space-y-6 animate-fadeIn">
@@ -30,7 +28,9 @@ export const StatisticalValidationView: React.FC<StatisticalValidationViewProps>
       <div>
         <div className="flex items-center space-x-2">
           <Badge variant="emerald">Audit Phase 9 Completed</Badge>
-          <span className="text-xs text-[#8B949E] font-mono">1,000 Match-Level Resamples</span>
+          <span className="text-xs text-[#8B949E] font-mono">
+            {validation.bootstrap_iterations || 100} Match-Level Resamples
+          </span>
         </div>
         <h1 className="text-2xl sm:text-3xl font-black text-[#F0F6FC] mt-1">
           Statistical Validation & Robustness
@@ -106,10 +106,10 @@ export const StatisticalValidationView: React.FC<StatisticalValidationViewProps>
             <thead className="bg-[#0E1117] text-[#8B949E] border-b border-[#21262D] font-mono uppercase tracking-wider">
               <tr>
                 <th className="py-3 px-4">Dimension</th>
-                <th className="py-3 px-4">Description</th>
-                <th className="py-3 px-4">Observed Metric</th>
-                <th className="py-3 px-4">Finding & Interpretation</th>
-                <th className="py-3 px-4 text-center">Status</th>
+                <th className="py-3 px-4 text-center">Batting</th>
+                <th className="py-3 px-4 text-center">Bowling</th>
+                <th className="py-3 px-4">Supporting Evidence</th>
+                <th className="py-3 px-4">Operational Impact</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-[#21262D]">
@@ -118,28 +118,21 @@ export const StatisticalValidationView: React.FC<StatisticalValidationViewProps>
                   <td className="py-3 px-4 font-semibold text-white whitespace-nowrap">
                     {item.dimension}
                   </td>
-                  <td className="py-3 px-4 text-[#8B949E] max-w-xs">
-                    {item.description}
-                  </td>
-                  <td className="py-3 px-4 font-mono font-bold text-[#00FFCC] whitespace-nowrap">
-                    {item.metric_value}
-                  </td>
-                  <td className="py-3 px-4 text-[#C9D1D9]">
-                    {item.finding}
+                  <td className="py-3 px-4 text-center">
+                    <Badge variant={item.batting_result === 'PASS' ? 'emerald' : 'amber'} size="sm">
+                      {item.batting_result}
+                    </Badge>
                   </td>
                   <td className="py-3 px-4 text-center">
-                    <Badge
-                      variant={
-                        item.status === 'PASS'
-                          ? 'emerald'
-                          : item.status === 'WARN'
-                          ? 'amber'
-                          : 'red'
-                      }
-                      size="sm"
-                    >
-                      {item.status}
+                    <Badge variant={item.bowling_result === 'PASS' ? 'emerald' : 'amber'} size="sm">
+                      {item.bowling_result}
                     </Badge>
+                  </td>
+                  <td className="py-3 px-4 text-[#C9D1D9] max-w-sm">
+                    {item.supporting_evidence}
+                  </td>
+                  <td className="py-3 px-4 text-[#8B949E] max-w-sm">
+                    {item.operational_impact}
                   </td>
                 </tr>
               ))}
@@ -162,27 +155,31 @@ export const StatisticalValidationView: React.FC<StatisticalValidationViewProps>
           <table className="w-full text-left text-xs">
             <thead className="bg-[#0E1117] text-[#8B949E] border-b border-[#21262D] font-mono uppercase tracking-wider">
               <tr>
-                <th className="py-3 px-4">Verification Check</th>
-                <th className="py-3 px-4">Pipeline Scope</th>
-                <th className="py-3 px-4">Audit Verification Details</th>
+                <th className="py-3 px-4">Check ID</th>
+                <th className="py-3 px-4">Test Performed</th>
+                <th className="py-3 px-4">Fields Examined</th>
+                <th className="py-3 px-4">Audit Evidence</th>
                 <th className="py-3 px-4 text-center">Status</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-[#21262D]">
               {leakageChecks.map((chk, idx) => (
                 <tr key={idx} className="hover:bg-[#1C2128] transition-colors">
+                  <td className="py-3 px-4 font-mono font-bold text-[#38BDF8]">
+                    {chk.check_id}
+                  </td>
                   <td className="py-3 px-4 font-semibold text-white whitespace-nowrap">
-                    {chk.check}
+                    {chk.test_performed}
                   </td>
                   <td className="py-3 px-4 font-mono text-[#8B949E] text-[11px]">
-                    {chk.scope}
+                    {chk.data_fields_examined}
                   </td>
                   <td className="py-3 px-4 text-[#C9D1D9]">
-                    {chk.details}
+                    {chk.evidence}
                   </td>
                   <td className="py-3 px-4 text-center">
-                    <Badge variant="emerald" size="sm">
-                      {chk.status}
+                    <Badge variant={chk.result === 'PASS' ? 'emerald' : 'amber'} size="sm">
+                      {chk.result}
                     </Badge>
                   </td>
                 </tr>

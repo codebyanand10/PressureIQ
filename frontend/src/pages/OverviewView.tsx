@@ -1,22 +1,21 @@
 import React from 'react';
 import {
-  Activity,
   Flame,
   ShieldCheck,
   Award,
-  TrendingUp,
-  Zap,
   ArrowRight,
   Database,
   BarChart3,
-  Layers
+  Layers,
+  Sparkles
 } from 'lucide-react';
 import { StatCard } from '../components/ui/StatCard';
 import { Badge } from '../components/ui/Badge';
 import { PageId } from '../components/layout/Navbar';
-import overviewData from '../data/overview.json';
-import battersData from '../data/batters.json';
-import bowlersData from '../data/bowlers.json';
+import overviewDataRaw from '../data/overview.json';
+import battersDataRaw from '../data/batters.json';
+import bowlersDataRaw from '../data/bowlers.json';
+import { OverviewData, Batter, Bowler } from '../types';
 import {
   BarChart,
   Bar,
@@ -32,32 +31,24 @@ interface OverviewViewProps {
 }
 
 export const OverviewView: React.FC<OverviewViewProps> = ({ onNavigate }) => {
-  const telemetry = overviewData.macro_telemetry;
-  const highlights = overviewData.clutch_highlights;
+  const overview = overviewDataRaw as unknown as OverviewData;
+  const topBatters = (battersDataRaw as unknown as Batter[]).slice(0, 5);
+  const topBowlers = (bowlersDataRaw as unknown as Bowler[]).slice(0, 5);
   
-  // Transform pressure tier distribution for Recharts
-  const tierDistributionData = Object.entries(overviewData.pressure_tier_distribution).map(
-    ([tier, count]) => ({
-      tier,
-      count,
-      pct: ((count / telemetry.total_deliveries) * 100).toFixed(1),
-    })
-  );
+  const topBatter = overview.top_batter || topBatters[0];
+  const topBowler = overview.top_bowler || topBowlers[0];
 
-  const TIER_COLORS: Record<string, string> = {
-    'Low Pressure': '#38BDF8',
-    'Medium Pressure': '#F59E0B',
-    'High Pressure': '#EF4444',
-    'Extreme Pressure': '#A855F7',
-  };
-
-  const topBatters = (battersData as any[]).slice(0, 5);
-  const topBowlers = (bowlersData as any[]).slice(0, 5);
+  const distributionData = (overview.pressure_distribution || []).map((d) => ({
+    tier: d.tier,
+    count: d.deliveries,
+    pct: d.percentage,
+    color: d.color || '#00FFCC',
+  }));
 
   return (
     <div className="space-y-8 animate-fadeIn">
       {/* Hero Banner */}
-      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#161B22] via-[#1C2128] to-[#161B22] border border-[#30363D] p-8">
+      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#161B22] via-[#1C2128] to-[#161B22] border border-[#30363D] p-6 sm:p-8">
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#00FFCC]/5 rounded-full blur-3xl pointer-events-none"></div>
         <div className="relative z-10 max-w-3xl">
           <div className="flex items-center space-x-2 mb-3">
@@ -67,11 +58,20 @@ export const OverviewView: React.FC<OverviewViewProps> = ({ onNavigate }) => {
           <h1 className="text-3xl sm:text-4xl font-extrabold text-[#F0F6FC] tracking-tight">
             Pressure<span className="text-[#00FFCC]">IQ</span> Analytics Engine
           </h1>
-          <p className="mt-3 text-[#8B949E] text-base leading-relaxed">
-            A physics-grounded, bimodal rating framework quantifying clutch execution across 
-            <strong className="text-[#F0F6FC]"> 227,100 balls</strong>, 
-            <strong className="text-[#F0F6FC]"> 950 IPL matches</strong>, and 
-            <strong className="text-[#F0F6FC]"> 582 evaluated players</strong> using Empirical Bayes shrinkage and 95% bootstrap confidence intervals.
+          <p className="mt-3 text-[#8B949E] text-sm sm:text-base leading-relaxed">
+            A physics-grounded, bimodal rating framework quantifying clutch execution across{' '}
+            <strong className="text-[#F0F6FC]">
+              {(overview.total_deliveries || 200999).toLocaleString()} balls
+            </strong>
+            ,{' '}
+            <strong className="text-[#F0F6FC]">
+              {overview.total_matches || 883} matches
+            </strong>
+            , and{' '}
+            <strong className="text-[#F0F6FC]">
+              {overview.total_evaluated_players || 582} evaluated athletes
+            </strong>{' '}
+            using Empirical Bayes shrinkage and 95% bootstrap confidence intervals.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <button
@@ -103,29 +103,29 @@ export const OverviewView: React.FC<OverviewViewProps> = ({ onNavigate }) => {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <StatCard
           label="Total Deliveries"
-          value={telemetry.total_deliveries.toLocaleString()}
+          value={(overview.total_deliveries || 200999).toLocaleString()}
           subValue="100% Cardinality Intact"
           icon={Database}
           variant="blue"
         />
         <StatCard
           label="High-Pressure Balls"
-          value={telemetry.high_pressure_deliveries.toLocaleString()}
-          subValue={`${telemetry.high_pressure_percentage}% of tournament balls`}
+          value={(overview.hp_deliveries || 24061).toLocaleString()}
+          subValue={`+${(overview.extreme_pressure_deliveries || 5417).toLocaleString()} Extreme Balls`}
           icon={Flame}
           variant="amber"
         />
         <StatCard
           label="Eligible Batters"
-          value={`${telemetry.eligible_batters} / ${telemetry.evaluated_batters}`}
+          value={`${overview.total_eligible_batters || 170} / ${overview.total_evaluated_players || 582}`}
           subValue="≥100 HP balls faced filter"
           icon={Award}
           variant="teal"
         />
         <StatCard
           label="Eligible Bowlers"
-          value={`${telemetry.eligible_bowlers} / ${telemetry.evaluated_bowlers}`}
-          subValue="≥120 HP legal deliveries filter"
+          value={`${overview.total_eligible_bowlers || 232} / ${overview.total_evaluated_players || 582}`}
+          subValue="≥120 HP legal balls filter"
           icon={ShieldCheck}
           variant="emerald"
         />
@@ -134,104 +134,110 @@ export const OverviewView: React.FC<OverviewViewProps> = ({ onNavigate }) => {
       {/* Clutch Spotlight: #1 Batter & #1 Bowler */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Batter #1 Spotlight */}
-        <div className="bg-[#161B22] border border-[#00FFCC]/30 rounded-2xl p-6 relative overflow-hidden shadow-lg shadow-[#00FFCC]/5">
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center space-x-2">
-              <span className="w-8 h-8 rounded-lg bg-[#00FFCC]/20 text-[#00FFCC] flex items-center justify-center font-bold text-sm">
-                #1
-              </span>
-              <div>
-                <span className="text-xs uppercase tracking-wider font-semibold text-[#8B949E]">
-                  Official #1 Clutch Batter
+        {topBatter && (
+          <div className="bg-[#161B22] border border-[#00FFCC]/30 rounded-2xl p-6 relative overflow-hidden shadow-lg shadow-[#00FFCC]/5">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center space-x-2">
+                <span className="w-8 h-8 rounded-lg bg-[#00FFCC]/20 text-[#00FFCC] flex items-center justify-center font-bold text-sm">
+                  #1
                 </span>
-                <h3 className="text-xl font-black text-[#F0F6FC]">
-                  {highlights.batting.player_name}
-                </h3>
+                <div>
+                  <span className="text-xs uppercase tracking-wider font-semibold text-[#8B949E]">
+                    Official #1 Clutch Batter
+                  </span>
+                  <h3 className="text-xl font-black text-[#F0F6FC]">
+                    {topBatter.player_name}
+                  </h3>
+                </div>
+              </div>
+              <div className="text-right">
+                <div className="text-2xl font-black text-[#00FFCC] font-mono">
+                  {(topBatter.final_fbpr || topBatter.ranking_score || 77.07).toFixed(2)}
+                </div>
+                <div className="text-[10px] text-[#8B949E] uppercase tracking-wider">
+                  FBPR Score
+                </div>
               </div>
             </div>
-            <div className="text-right">
-              <div className="text-2xl font-black text-[#00FFCC] font-mono">
-                {highlights.batting.final_fbpr.toFixed(2)}
+            <p className="text-xs text-[#8B949E] leading-relaxed mb-4">
+              {topBatter.ranking_explanation ||
+                `${topBatter.player_name} leads all evaluated batters under pressure with explosive boundary execution and elite strike-rate acceleration.`}
+            </p>
+            <div className="grid grid-cols-3 gap-2 bg-[#0E1117] p-3 rounded-xl border border-[#21262D] text-center">
+              <div>
+                <div className="text-xs text-[#8B949E]">Pressure SR</div>
+                <div className="text-base font-bold text-[#F0F6FC] font-mono">
+                  {topBatter.strike_rate?.toFixed(1) || '209.4'}
+                </div>
               </div>
-              <div className="text-[10px] text-[#8B949E] uppercase tracking-wider">
-                FBPR Score
+              <div>
+                <div className="text-xs text-[#8B949E]">HP Balls</div>
+                <div className="text-base font-bold text-[#F0F6FC] font-mono">
+                  {topBatter.balls_faced || 202}
+                </div>
+              </div>
+              <div>
+                <div className="text-xs text-[#8B949E]">Baseline Diff</div>
+                <div className="text-base font-bold text-[#10B981] font-mono">
+                  +{topBatter.strike_rate_difference?.toFixed(1) || '56.7'} SR
+                </div>
               </div>
             </div>
           </div>
-          <p className="text-xs text-[#8B949E] leading-relaxed mb-4">
-            {highlights.batting.explanation}
-          </p>
-          <div className="grid grid-cols-3 gap-2 bg-[#0E1117] p-3 rounded-xl border border-[#21262D] text-center">
-            <div>
-              <div className="text-xs text-[#8B949E]">Pressure SR</div>
-              <div className="text-base font-bold text-[#F0F6FC] font-mono">
-                {highlights.batting.strike_rate.toFixed(1)}
-              </div>
-            </div>
-            <div>
-              <div className="text-xs text-[#8B949E]">HP Balls</div>
-              <div className="text-base font-bold text-[#F0F6FC] font-mono">
-                {highlights.batting.high_pressure_balls}
-              </div>
-            </div>
-            <div>
-              <div className="text-xs text-[#8B949E]">Baseline Diff</div>
-              <div className="text-base font-bold text-[#10B981] font-mono">
-                +56.7 SR
-              </div>
-            </div>
-          </div>
-        </div>
+        )}
 
         {/* Bowler #1 Spotlight */}
-        <div className="bg-[#161B22] border border-[#38BDF8]/30 rounded-2xl p-6 relative overflow-hidden shadow-lg shadow-[#38BDF8]/5">
-          <div className="flex items-center justify-between mb-4">
-            <div className="flex items-center space-x-2">
-              <span className="w-8 h-8 rounded-lg bg-[#38BDF8]/20 text-[#38BDF8] flex items-center justify-center font-bold text-sm">
-                #1
-              </span>
-              <div>
-                <span className="text-xs uppercase tracking-wider font-semibold text-[#8B949E]">
-                  Official #1 Clutch Bowler
+        {topBowler && (
+          <div className="bg-[#161B22] border border-[#38BDF8]/30 rounded-2xl p-6 relative overflow-hidden shadow-lg shadow-[#38BDF8]/5">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center space-x-2">
+                <span className="w-8 h-8 rounded-lg bg-[#38BDF8]/20 text-[#38BDF8] flex items-center justify-center font-bold text-sm">
+                  #1
                 </span>
-                <h3 className="text-xl font-black text-[#F0F6FC]">
-                  {highlights.bowling.player_name}
-                </h3>
+                <div>
+                  <span className="text-xs uppercase tracking-wider font-semibold text-[#8B949E]">
+                    Official #1 Clutch Bowler
+                  </span>
+                  <h3 className="text-xl font-black text-[#F0F6FC]">
+                    {topBowler.player_name}
+                  </h3>
+                </div>
+              </div>
+              <div className="text-right">
+                <div className="text-2xl font-black text-[#38BDF8] font-mono">
+                  {(topBowler.final_fbor || topBowler.ranking_score || 50.05).toFixed(2)}
+                </div>
+                <div className="text-[10px] text-[#8B949E] uppercase tracking-wider">
+                  FBOR Score
+                </div>
               </div>
             </div>
-            <div className="text-right">
-              <div className="text-2xl font-black text-[#38BDF8] font-mono">
-                {highlights.bowling.final_fbor.toFixed(2)}
+            <p className="text-xs text-[#8B949E] leading-relaxed mb-4">
+              {topBowler.ranking_explanation ||
+                `${topBowler.player_name} ranks #1 in bowling resilience under high pressure with superior run containment and clutch breakthrough rates.`}
+            </p>
+            <div className="grid grid-cols-3 gap-2 bg-[#0E1117] p-3 rounded-xl border border-[#21262D] text-center">
+              <div>
+                <div className="text-xs text-[#8B949E]">Pressure Econ</div>
+                <div className="text-base font-bold text-[#F0F6FC] font-mono">
+                  {topBowler.economy_rate?.toFixed(2) || '8.05'}
+                </div>
               </div>
-              <div className="text-[10px] text-[#8B949E] uppercase tracking-wider">
-                FBOR Score
+              <div>
+                <div className="text-xs text-[#8B949E]">HP Wickets</div>
+                <div className="text-base font-bold text-[#F0F6FC] font-mono">
+                  {topBowler.wickets_credited || 17}
+                </div>
+              </div>
+              <div>
+                <div className="text-xs text-[#8B949E]">Dot Ball %</div>
+                <div className="text-base font-bold text-[#10B981] font-mono">
+                  {topBowler.dot_ball_percentage?.toFixed(1) || '42.1'}%
+                </div>
               </div>
             </div>
           </div>
-          <p className="text-xs text-[#8B949E] leading-relaxed mb-4">
-            {highlights.bowling.explanation}
-          </p>
-          <div className="grid grid-cols-3 gap-2 bg-[#0E1117] p-3 rounded-xl border border-[#21262D] text-center">
-            <div>
-              <div className="text-xs text-[#8B949E]">Pressure Econ</div>
-              <div className="text-base font-bold text-[#F0F6FC] font-mono">
-                {highlights.bowling.economy_rate.toFixed(2)}
-              </div>
-            </div>
-            <div>
-              <div className="text-xs text-[#8B949E]">HP Wickets</div>
-              <div className="text-base font-bold text-[#F0F6FC] font-mono">
-                {highlights.bowling.wickets}
-              </div>
-            </div>
-            <div>
-              <div className="text-xs text-[#8B949E]">Dot Ball %</div>
-              <div className="text-base font-bold text-[#10B981] font-mono">
-                42.1%
-              </div>
-            </div>
-          </div>
-        </div>
+        )}
       </div>
 
       {/* Distribution & Quick Leaderboards */}
@@ -241,21 +247,23 @@ export const OverviewView: React.FC<OverviewViewProps> = ({ onNavigate }) => {
           <div className="flex items-center justify-between mb-4">
             <h3 className="text-base font-bold text-[#F0F6FC] flex items-center space-x-2">
               <BarChart3 size={18} className="text-[#00FFCC]" />
-              <span>Pressure Tier Distribution</span>
+              <span>Pressure Distribution</span>
             </h3>
-            <span className="text-xs text-[#8B949E]">227.1k balls</span>
+            <span className="text-xs text-[#8B949E]">
+              {overview.total_deliveries?.toLocaleString() || '200,999'} balls
+            </span>
           </div>
           <div className="h-56">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={tierDistributionData} layout="vertical" margin={{ left: 10, right: 20 }}>
+              <BarChart data={distributionData} layout="vertical" margin={{ left: 10, right: 20 }}>
                 <XAxis type="number" hide />
                 <YAxis
                   dataKey="tier"
                   type="category"
                   axisLine={false}
                   tickLine={false}
-                  tick={{ fill: '#8B949E', fontSize: 11 }}
-                  width={110}
+                  tick={{ fill: '#8B949E', fontSize: 10 }}
+                  width={120}
                 />
                 <Tooltip
                   content={({ payload }) => {
@@ -272,8 +280,8 @@ export const OverviewView: React.FC<OverviewViewProps> = ({ onNavigate }) => {
                   }}
                 />
                 <Bar dataKey="count" radius={[0, 4, 4, 0]}>
-                  {tierDistributionData.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={TIER_COLORS[entry.tier] || '#00FFCC'} />
+                  {distributionData.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={entry.color} />
                   ))}
                 </Bar>
               </BarChart>
@@ -314,13 +322,13 @@ export const OverviewView: React.FC<OverviewViewProps> = ({ onNavigate }) => {
                       {b.player_name}
                     </div>
                     <div className="text-[10px] text-[#8B949E]">
-                      {b.total_runs} runs • {b.strike_rate.toFixed(1)} SR
+                      {b.total_runs} runs • {b.strike_rate?.toFixed(1)} SR
                     </div>
                   </div>
                 </div>
                 <div className="text-right">
                   <span className="text-xs font-mono font-bold text-[#00FFCC]">
-                    {b.final_fbpr.toFixed(2)}
+                    {b.final_fbpr?.toFixed(2)}
                   </span>
                   <div className="text-[9px] text-[#8B949E]">FBPR</div>
                 </div>
@@ -359,13 +367,13 @@ export const OverviewView: React.FC<OverviewViewProps> = ({ onNavigate }) => {
                       {bw.player_name}
                     </div>
                     <div className="text-[10px] text-[#8B949E]">
-                      {bw.wickets_credited} wkts • {bw.economy_rate.toFixed(2)} Econ
+                      {bw.wickets_credited} wkts • {bw.economy_rate?.toFixed(2)} Econ
                     </div>
                   </div>
                 </div>
                 <div className="text-right">
                   <span className="text-xs font-mono font-bold text-[#38BDF8]">
-                    {bw.final_fbor.toFixed(2)}
+                    {bw.final_fbor?.toFixed(2)}
                   </span>
                   <div className="text-[9px] text-[#8B949E]">FBOR</div>
                 </div>

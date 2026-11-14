@@ -129,89 +129,72 @@ export interface Bowler {
   ranking_limitations?: string;
 }
 
+export interface PressureDistributionItem {
+  tier: string;
+  deliveries: number;
+  percentage: number;
+  color: string;
+}
+
 export interface OverviewData {
-  macro_telemetry: {
-    total_deliveries: number;
-    matches_analyzed: number;
-    high_pressure_deliveries: number;
-    extreme_pressure_deliveries: number;
-    high_pressure_percentage: number;
-    evaluated_batters: number;
-    evaluated_bowlers: number;
-    eligible_batters: number;
-    eligible_bowlers: number;
-  };
-  pressure_tier_distribution: Record<string, number>;
-  clutch_highlights: {
-    batting: {
-      player_name: string;
-      final_fbpr: number;
-      strike_rate: number;
-      high_pressure_balls: number;
-      explanation: string;
-    };
-    bowling: {
-      player_name: string;
-      final_fbor: number;
-      economy_rate: number;
-      wickets: number;
-      explanation: string;
-    };
-  };
+  total_matches: number;
+  matches_with_deliveries: number;
+  total_deliveries: number;
+  hp_deliveries: number;
+  extreme_pressure_deliveries: number;
+  hp_matches: number;
+  total_eligible_batters: number;
+  total_eligible_bowlers: number;
+  total_evaluated_players: number;
+  validation_scorecard_pass_rate: string;
+  data_leakage_checks_passed: string;
+  top_batter: Batter;
+  top_bowler: Bowler;
+  pressure_distribution: PressureDistributionItem[];
+  competition_split?: Record<string, number>;
+}
+
+export interface ScorecardItem {
+  dimension: string;
+  batting_result: string;
+  bowling_result: string;
+  supporting_evidence: string;
+  operational_impact: string;
+}
+
+export interface LeakageAuditItem {
+  check_id: string;
+  test_performed: string;
+  data_fields_examined: string;
+  result: string;
+  severity: string;
+  evidence: string;
+  required_action: string | null;
 }
 
 export interface ValidationData {
-  scorecard: Array<{
-    dimension: string;
-    description: string;
-    status: 'PASS' | 'WARN' | 'FAIL';
-    finding: string;
-    metric_value: string;
-  }>;
-  leakage_audit: Array<{
-    check: string;
-    scope: string;
-    status: 'PASS' | 'WARN' | 'FAIL';
-    details: string;
-  }>;
+  status: string;
+  summary: string;
+  scorecard: ScorecardItem[];
+  leakage_audit: LeakageAuditItem[];
+  bootstrap_iterations: number;
+  resampling_unit: string;
 }
 
-export interface MethodologyData {
-  bimodal_pressure: {
-    description: string;
-    chase_components: string[];
-    first_innings_components: string[];
-    weights: {
-      chase: Record<string, number>;
-      first_innings: Record<string, number>;
-    };
-  };
-  rating_engines: {
-    fbpr: {
-      name: string;
-      formula: string;
-      weights: Record<string, number>;
-    };
-    fbor: {
-      name: string;
-      formula: string;
-      weights: Record<string, number>;
-    };
-  };
+export interface TableStatus {
+  name: string;
+  records: number;
+  status: string;
+  size: string;
 }
 
 export interface DataQualityData {
-  pipeline_telemetry: {
-    raw_balls: number;
-    processed_deliveries: number;
-    unique_matches: number;
-    unique_players: number;
-    cardinality_reconciliation: string;
-  };
-  physics_invariants: Array<{
-    invariant: string;
-    expected: string;
-    actual: string;
-    status: 'PASS' | 'FAIL';
-  }>;
+  dataset_health: string;
+  matches_count: number;
+  bowled_matches: number;
+  deliveries_count: number;
+  duplicate_deliveries: number;
+  cricket_physics_violations: number;
+  temporal_causality_violations: number;
+  tables: TableStatus[];
 }
