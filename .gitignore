@@ -75,3 +75,10 @@ data/processed/**/*.csv
 !outputs/dashboard/**
 !submission/**
 
+# Frontend Node Dependencies & Dist Build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.vite/
+
+

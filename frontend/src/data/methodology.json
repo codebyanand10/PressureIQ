@@ -1,0 +1,54 @@
+{
+  "title": "PressureIQ: A Quantitative Framework for Evaluating Cricket Performance Under Pressure",
+  "framework_version": "1.0.0",
+  "pressure_definition": {
+    "scale": "0 to 100",
+    "chasing_model": "Non-linear sigmoidal acceleration curve based on Required Run Rate (RRR), wickets lost, and deliveries remaining.",
+    "first_innings_model": "Dynamic par-score reference curve contrasting Current Run Rate (CRR) against venue par scores with wickets decay.",
+    "separation": "Batting pressure and bowling pressure are independently evaluated based on cognitive and strategic match leverage."
+  },
+  "weights": {
+    "quality_and_resilience": {
+      "weight": 0.4,
+      "description": "Retention of performance under pressure vs. normal baseline (BPPI / BPPI-B)"
+    },
+    "absolute_performance": {
+      "weight": 0.3,
+      "description": "Raw clutch output (HP Strike Rate, HP Boundary %, HP Economy Rate)"
+    },
+    "consistency": {
+      "weight": 0.15,
+      "description": "Innings-by-innings variance control under pressure"
+    },
+    "pressure_context": {
+      "weight": 0.15,
+      "description": "Exposure to extreme pressure (P \u2265 75) and match importance weight"
+    }
+  },
+  "formulas": [
+    {
+      "name": "Final Batter Pressure Rating (FBPR)",
+      "latex": "FBPR = 0.40 \\cdot S_{res} + 0.30 \\cdot S_{abs} + 0.15 \\cdot S_{con} + 0.15 \\cdot S_{ctx}",
+      "description": "Multi-dimensional composite rating evaluating clutch batting resilience and execution."
+    },
+    {
+      "name": "Final Bowler Pressure Rating (FBOR)",
+      "latex": "FBOR = 0.40 \\cdot S_{res}^B + 0.30 \\cdot S_{abs}^B + 0.15 \\cdot S_{con}^B + 0.15 \\cdot S_{ctx}^B",
+      "description": "Multi-dimensional composite rating evaluating death/clutch bowling economy and wicket-taking."
+    },
+    {
+      "name": "Empirical Bayes Shrinkage",
+      "latex": "\\theta_{shrunk} = \\frac{B \\cdot \\mu_{global} + N \\cdot \\bar{x}_{player}}{B + N}",
+      "description": "James-Stein shrinkage towards global prior means to prevent small-sample distortion."
+    },
+    {
+      "name": "Required Run Rate Leverage",
+      "latex": "RRR = \\frac{\\text{Runs Required} \\times 6}{\\text{Legal Balls Remaining}}",
+      "description": "Pre-delivery chasing demand formulation for second-innings pressure dynamics."
+    }
+  ],
+  "eligibility_thresholds": {
+    "batting": "Minimum 40 balls faced under high pressure (P \u2265 60) across at least 4 matches",
+    "bowling": "Minimum 48 legal deliveries (8.0 overs) bowled under high pressure (P \u2265 60) across at least 4 matches"
+  }
+}

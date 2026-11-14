@@ -1,0 +1,41 @@
+{
+  "dataset_health": "100% Verified",
+  "matches_count": 883,
+  "bowled_matches": 867,
+  "deliveries_count": 200999,
+  "duplicate_deliveries": 0,
+  "cricket_physics_violations": 0,
+  "temporal_causality_violations": 0,
+  "tables": [
+    {
+      "name": "matches_reconstructed.parquet",
+      "records": 200999,
+      "status": "VERIFIED",
+      "size": "7.08 MB"
+    },
+    {
+      "name": "pressure_scores.parquet",
+      "records": 200999,
+      "status": "VERIFIED",
+      "size": "9.72 MB"
+    },
+    {
+      "name": "batter_ratings.parquet",
+      "records": 170,
+      "status": "VERIFIED",
+      "size": "186 KB"
+    },
+    {
+      "name": "bowler_ratings.parquet",
+      "records": 232,
+      "status": "VERIFIED",
+      "size": "235 KB"
+    },
+    {
+      "name": "player_registry.parquet",
+      "records": 582,
+      "status": "VERIFIED",
+      "size": "81 KB"
+    }
+  ]
+}
